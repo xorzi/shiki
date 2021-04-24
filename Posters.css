@@ -1,0 +1,374 @@
+/* Общие настройки / удаление текущих обложек */
+
+
+/* Общие настройки обложек */
+.b-catalog_entry .cover .image-cutter,
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  background-size: cover;
+  background-position: top center;
+}
+
+/* Изменение контейнера во всплывающей подсказке */
+.b-catalog_entry-tooltip > a,
+.entry-tooltip_container > .image-link {
+  float: left;
+  width: 160px;
+  height: 249.34px;
+}
+
+
+/*  Шаблон */
+
+/* Имя */
+.b-catalog_entry a[href *= 'characters/-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/-'] {
+  background-image: url();
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
+    opacity: 0;
+}
+
+/* Аскеладд */
+.b-catalog_entry a[href *= 'characters/13020-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/13020-'] {
+  background-image: url(https://i.ibb.co/R3D6w2b/image.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/13020-'] img {
+    opacity: 0;
+}
+
+/*Трафальгар Ло*/
+.b-catalog_entry a[href *= 'characters/13767-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/13767-'] {
+  background-image: url(https://i.ibb.co/CM3jRbL/8d0c633e14d7fa9c63d7c6f70acb1ec2.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/13767-'] img {
+    opacity: 0;
+}
+
+/*Камина*/
+.b-catalog_entry a[href *= 'characters/2075-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/2075-'] {
+  background-image: url(https://i.ibb.co/TwQyP67/Kamina.jpg);
+}
+
+/*Чоппер*/
+
+.b-catalog_entry a[href *= 'characters/309-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/309-'] {
+  background-image: url(https://i.ibb.co/gt0TNZx/1.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/309-'] img {
+    opacity: 0;
+}
+
+/*Брук*/
+.b-catalog_entry a[href *= 'characters/5627-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/5627-'] {
+  background-image: url(https://i.ibb.co/gVVsQM0/2.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/5627-'] img {
+    opacity: 0;
+}
+
+/*Нами*/
+.b-catalog_entry a[href *= 'characters/723-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/723'] {
+  background-image: url(https://i.ibb.co/B33Wd84/3.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/723-'] img {
+    opacity: 0;
+}
+
+
+/*Робин*/
+.b-catalog_entry a[href *= 'characters/61-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/61-'] {
+  background-image: url(https://i.ibb.co/SfsGM6N/4.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/61-'] img {
+    opacity: 0;
+}
+
+/*Санджи*/
+.b-catalog_entry a[href *= 'characters/305-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/305-'] {
+  background-image: url(https://i.ibb.co/mbwvGT5/5.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/305-'] img {
+    opacity: 0;
+}
+
+
+/*Усопп*/
+.b-catalog_entry a[href *= 'characters/724-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/724-'] {
+  background-image: url(https://i.ibb.co/g6S11mG/6.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/724-'] img {
+    opacity: 0;
+}
+
+/*Зоро*/
+.b-catalog_entry a[href *= 'characters/62-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/62-'] {
+  background-image: url(https://i.ibb.co/BPkhfdw/7.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/62-'] img {
+    opacity: 0;
+}
+
+/*  Луффи  */
+.b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/40-'] {
+  background-image: url(https://i.ibb.co/s2DV8QW/AaHXO7.jpg);
+}
+
+
+/* Ягами  */
+.b-catalog_entry a[href *= 'characters/80-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/80-'] {
+  background-image: url(https://i.ibb.co/xfyxtjy/uy-Rq-oo-Y2-D4.jpg);
+}
+
+/*  Спайк */
+.b-catalog_entry a[href *= 'characters/1-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/1-'] {
+  background-image: url(https://i.ibb.co/168hBJr/EZGe-j-KXYAEgpl4.jpg);
+}
+
+/*  Мадара  */
+.b-catalog_entry a[href *= 'characters/53901-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/53901-'] {
+  background-image: url(https://i.pinimg.com/564x/66/97/c8/6697c8471c8b4b8893a7f442504fb6e4.jpg);
+}
+
+/*  Гатс  */
+.b-catalog_entry a[href *= 'characters/422-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/422-'] {
+  background-image: url(https://i.ibb.co/6NcgYfv/i-5.jpg);
+}
+
+/* Эл  */
+.b-catalog_entry a[href *= 'characters/71-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/71-'] {
+  background-image: url(https://i.ibb.co/wJsFCQ8/p-Ed-En-T0xya-I.jpg);
+}
+
+/* Нагито */
+.b-catalog_entry a[href *= 'characters/73227-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/73227-'] {
+  background-image: url(https://i.ibb.co/1bLMFNK/Gm-Gxh-AD8-Zio.jpg);
+}
+
+/* Цельнометаллический */
+.b-catalog_entry a[href *= 'characters/11-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/11-'] {
+  background-image: url(https://i.ibb.co/kqPpwfh/CYgFEF.png);
+}
+
+/* Лелуш */
+.b-catalog_entry a[href *= 'characters/417-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/417-'] {
+  background-image: url(https://i.ibb.co/NVtckxZ/i-1.jpg);
+}
+
+/* Онидзука */
+.b-catalog_entry a[href *= 'characters/434-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/434-'] {
+  background-image: url(https://im0-tub-ru.yandex.net/i?id=398b73bf95448c83c3c0f75b20c4882f&n=13&exp=1);
+}
+
+/* Ишигами Сенку */
+.b-catalog_entry a[href *= 'characters/148984-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/148984-'] {
+  background-image: url(https://i.pinimg.com/736x/df/8e/2b/df8e2b46995abd96a7f1dfb4c7540d07.jpg);
+}
+
+/* Пейн  */
+.b-catalog_entry a[href *= 'characters/3180-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/3180-'] {
+  background-image: url(https://yt3.ggpht.com/a/AATXAJzQqP7gOqKV5or6vH872RZtWcynx_HC17g_Wqj7MQ=s900-c-k-c0xffffffff-no-rj-mo);
+}
+
+/* Хисока */
+.b-catalog_entry a[href *= 'characters/31-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/31-'] {
+  background-image: url(https://i.ibb.co/LPgQYfd/22e62.jpg);
+}
+
+/* Сора */
+.b-catalog_entry a[href *= 'characters/82523-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/82523-'] {
+  background-image: url(https://i.ibb.co/KDmvXyB/1YIgw-1.jpg);
+}
+
+/* Авилио Бруно */
+.b-catalog_entry a[href *= 'characters/141202-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/141202-'] {
+  background-image: url(https://i.ibb.co/jVXtCSW/i-7.jpg);
+}
+
+/* Алукард */
+.b-catalog_entry a[href *= 'characters/601-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/601-'] {
+  background-image: url(https://i.ibb.co/dj8JtJW/image.png);
+}
+
+/* Кискэ */
+.b-catalog_entry a[href *= 'characters/z210-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/z210-'] {
+  background-image: url(https://i.ibb.co/FqqQKwp/8db92.jpg);
+}
+
+/* Леонардо Уотч */
+.b-catalog_entry a[href *= 'characters/118607-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/118607-'] {
+  background-image: url(https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg);
+}
+
+/* Итачи*/
+.b-catalog_entry a[href *= 'characters/14-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/14-'] {
+  background-image: url(https://i.ibb.co/YyKkmsG/i-Oe-Yjb9gd-C4.jpg);
+}
+
+/* Широ */
+.b-catalog_entry a[href *= 'characters/82525-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/82525-'] {
+  background-image: url(https://i.ibb.co/jLq49L7/i-55.jpg);
+}
+
+/* Хяккимару */
+.b-catalog_entry a[href *= 'characters/14864-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/14864-'] {
+  background-image: url(https://i.ibb.co/wKrXzSN/Fy-Jwztjq-Mqs.jpg);
+}
+
+/* Рин Тосака */
+.b-catalog_entry a[href *= 'characters/498-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/498'] {
+  background-image: url(https://i.ibb.co/wyYPhfX/Khi-CXw-P4-XJk.jpg);
+}
+
+/* Курису Макисэ */
+.b-catalog_entry a[href *= 'characters/34470-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/34470-'] {
+  background-image: url(https://i.ibb.co/L0Jr48j/jye-G7p-H5884.jpg);
+}
+
+/* Шиноа Хираги */
+.b-catalog_entry a[href *= 'characters/83017-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/83017-'] {
+  background-image: url(https://i.ibb.co/QpMwNVD/7-Eu-IWGETHLY.jpg);
+}
+
+
+
+
+/*Удаление*/
+[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/2075-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/80-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/1-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/53901-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/422-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/71-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/73227-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/11-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/417-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/434-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/148984-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/3180-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/31-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/82523-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/141202-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/601-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/z210-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/14-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/118607-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/82525-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/14864-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/498-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/34470-'] img {
+    opacity: 0;
+}
+
+[class *= 'b-catalog_entry'] > a[href *= 'characters/83017-'] img {
+    opacity: 0;
+}
+
