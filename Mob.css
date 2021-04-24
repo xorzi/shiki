@@ -1,4 +1,4 @@
- /*Адаптация под мобильное устройство*/
+ /*РђРґР°РїС‚Р°С†РёСЏ РїРѕРґ РјРѕР±РёР»СЊРЅРѕРµ СѓСЃС‚СЂРѕР№СЃС‚РІРѕ*/
 @media screen and (max-width: 767px){
     .b-stats_bar a.title, .b-stats_bar .title {
         font-size: 14px;
@@ -39,7 +39,8 @@
       .p-profiles-show .lifetime .times {
         display: none;
     }
-    /*убрать рекламу*/.spns_mt_footer_300x250{
+    /*РЈР±СЂР°С‚СЊ СЂРµРєР»Р°РјСѓ*/
+	.spns_mt_footer_300x250{
         display: none;
     }
       
