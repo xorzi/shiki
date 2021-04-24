@@ -209,7 +209,7 @@ border-radius: 10px;
 @media screen and (min-width: 1000px) {
   .b-image.b-poster img{
 width: 1300px;
-margin: 20px;
+margin: 25px;
 }}
 
 .tooltip-inner { background: none repeat scroll 0 0 rgba(var(--menu-back), 1);}
