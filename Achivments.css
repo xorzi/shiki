@@ -1,0 +1,40 @@
+/*Достижения картинки*/
+
+.b-achievement .c-image .inner a::after { 
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+ .b-achievement[data-hint="Драма level 1"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+
+ .b-achievement[data-hint="100 watched anime"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
