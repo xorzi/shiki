@@ -82,11 +82,6 @@
     font-size: 0px !important;
 }
 
-/*История*/
-	.p-profiles .profile-head .c-history .entry {
-      display: none;
-      
-}
 /*АВА*/
 .p-profiles .profile-head .c-brief .avatar  img { 
    visibility: hidden
