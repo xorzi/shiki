@@ -1,4 +1,4 @@
-/*Äîñòèæåíèÿ êàðòèíêè*/
+/*Ð”Ð¾ÑÑ‚Ð¸Ð¶ÐµÐ½Ð¸Ñ ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ¸*/
 
 .b-achievement .c-image .inner a::after { 
     position: absolute;
@@ -12,15 +12,15 @@
     background-position: center center;
     background-size: cover;    
 }
- .b-achievement[data-hint="Äðàìà level 1"] .c-image .inner a {
+ .b-achievement[data-hint="Ð”Ñ€Ð°Ð¼Ð° level 1"] .c-image .inner a {
     visibility: hidden;
 }
-.b-achievement[data-hint="Äðàìà level 1"] > .c-image .inner a[href$='/drama']::after { 
+.b-achievement[data-hint="Ð”Ñ€Ð°Ð¼Ð° level 1"] > .c-image .inner a[href$='/drama']::after { 
   background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
   filter: grayscale(1) !important;
 }
 
-.b-achievement[data-hint="Äðàìà 1 óðîâíÿ"] > .c-image .inner a[href$='/drama']::after { 
+.b-achievement[data-hint="Ð”Ñ€Ð°Ð¼Ð° 1 ÑƒÑ€Ð¾Ð²Ð½Ñ"] > .c-image .inner a[href$='/drama']::after { 
   background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
   filter: grayscale(1) !important;
 }
@@ -34,7 +34,7 @@
   filter: grayscale(1) !important;
 }
 
-.b-achievement[data-hint="100 ïðîñìîòðåííûõ àíèìå"] > .c-image .inner a[href$='/animelist']::after { 
+.b-achievement[data-hint="100 Ð¿Ñ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ÐµÐ½Ð½Ñ‹Ñ… Ð°Ð½Ð¸Ð¼Ðµ"] > .c-image .inner a[href$='/animelist']::after { 
   background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
   filter: grayscale(1) !important;
 }
