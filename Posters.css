@@ -1,3 +1,99 @@
+    /*Тетрадь смерти*/
+    .b-catalog_entry > a[href *= 'animes/z1535-'] img,
+    .entry-tooltip_container > .image-link[href *= 'animes/z1535-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'animes/z1535-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'animes/z1535-'] {
+      background-image: url(https://i.ibb.co/D1bvsy6/Death-Note.jpg);
+    }
+    
+    /*Идеальная грусть*/
+    .b-catalog_entry > a[href *= 'animes/437-'] img,
+    .entry-tooltip_container > .image-link[href *= 'animes/437-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'animes/437-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'animes/437-'] {
+      background-image: url(https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg);
+    }
+    
+    /*Аниме Паразит*/
+    .b-catalog_entry > a[href *= 'animes/22535-'] img,
+    .entry-tooltip_container > .image-link[href *= 'animes/22535-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'animes/22535-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'animes/22535-'] {
+      background-image: url(https://i.ibb.co/hs0qYts/Parasyte.jpg);
+    }
+    
+    /*Аниме Сага о винланде*/
+    .b-catalog_entry > a[href *= 'animes/37521-'] img,
+    .entry-tooltip_container > .image-link[href *= 'animes/37521-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'animes/37521-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'animes/37521-'] {
+      background-image: url(https://i.ibb.co/hcY6wyd/Vinland-saga.jpg);
+    }
+    
+    /*ДжоДжо 7*/
+    .b-catalog_entry > a[href *= 'mangas/1706-'] img,
+    .entry-tooltip_container > .image-link[href *= 'mangas/1706-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'mangas/1706-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'mangas/1706-'] {
+      background-image: url(https://i.ibb.co/f44jKW8/Steel-Ball-Run.jpg);
+    }
+    
+    /*Бродяга*/
+    .b-catalog_entry > a[href *= 'mangas/656-'] img,
+    .entry-tooltip_container > .image-link[href *= 'mangas/656-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'mangas/656-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'mangas/656-'] {
+      background-image: url(https://i.ibb.co/gT4xjD5/Vagabond.jpg);
+    }
+    
+    /*Берсерк*/
+    .b-catalog_entry > a[href *= 'mangas/2-'] img,
+    .entry-tooltip_container > .image-link[href *= 'mangas/2-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'mangas/2-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'mangas/2-'] {
+      background-image: url(https://i.ibb.co/f267XgT/Berserk.jpg);
+    }
+    
+    /*Винланд Сага*/
+    .b-catalog_entry > a[href *= 'mangas/642-'] img,
+    .entry-tooltip_container > .image-link[href *= 'mangas/642-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'mangas/642-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'mangas/642-'] {
+      background-image: url(https://i.ibb.co/XYk8WGV/Vinland-Saga.jpg);
+    }
+    /*Дорохедоро*/
+    .b-catalog_entry > a[href *= 'mangas/1133-'] img,
+    .entry-tooltip_container > .image-link[href *= 'mangas/1133-'] img {
+      opacity: 0;
+    }
+    .b-catalog_entry a[href *= 'mangas/1133-'] .image-cutter,
+    .entry-tooltip_container > .image-link[href *= 'mangas/1133-'] {
+      background-image: url(https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg);
+    }
+    
+
+
+
+
+
+
+
 /* Общие настройки / удаление текущих обложек */
 
 
@@ -27,6 +123,15 @@
 }
 [class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
     opacity: 0;
+}
+
+/* Диего */
+.b-catalog_entry a[href *= 'characters/20148-'] .image-cutter,
+.b-catalog_entry-tooltip > a[href *= 'characters/20148-'] {
+  background-image: url(https://i.ibb.co/XZCVRZt/Diego.jpg);
+}
+[class *= 'b-catalog_entry'] > a[href *= 'characters/20148-'] img {
+  opacity: 0;
 }
 
 /* Аскеладд */
@@ -243,7 +348,7 @@
 /* Хяккимару */
 .b-catalog_entry a[href *= 'characters/14864-'] .image-cutter,
 .b-catalog_entry-tooltip > a[href *= 'characters/14864-'] {
-  background-image: url(https://i.ibb.co/wKrXzSN/Fy-Jwztjq-Mqs.jpg);
+  background-image: url(https://i.ibb.co/nPgm6RC/Hyakkimaru.jpg);
 }
 
 /* Рин Тосака */
