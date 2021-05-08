@@ -1,0 +1,108 @@
+   
+    
+    .b-db_entry > .c-image img {
+        box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+    }
+    
+    .b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
+        border-radius: 11px;
+    }
+    
+    
+    
+    
+    .user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+        border-radius: 7px 0;
+    }
+    
+    .tooltip-inner {
+        border: none;
+        color: inherit;
+        box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
+        border-radius: 12px;
+    }
+    
+    #profiles_show .tooltip-inner {
+        width: 440x;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*Полезности*/
+    .b-to-top.active .arrow {display: none;}
+    body::-webkit-scrollbar-thumb{
+      display: none;
+    }
+    .l-top_menu-v2 .menu-dropdown .submenu::-webkit-scrollbar-thumb {
+       background: rgba(5, 5, 5, 0.3);
+    }
+    .b-catalog_entry-tooltip .inner .additional-images .link img {
+        border-radius: 4px;
+    }
+    .p-profiles-favorites .item-edit {
+        cursor: pointer;
+        color: #707986;
+        cursor: pointer;
+    }
+    .subheadline-buttons a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        font-size: 9px!important;
+        background: #00000030!important;
+        border-radius: 12px;
+    }
+    
+
+    
+    /*Настройки для постера временно*/
+    @media screen and (min-width: 1000px) {
+      .b-image.b-poster img{
+        width: 1300px;
+        margin: 30px;
+    }}
+    
+    
+    
+
+    
+    /*Стрелка*/
+    .b-to-top.active .arrow {
+        z-index: 1;
+        top: 70px;
+        opacity: 0;
+    }
+    
+    /*Шапка*/
+    .l-top_menu-v2 {
+        background: rgba(var(--menu-back), 0);
+        box-shadow: 0 1px 20px 10px rgba(var(--menu-back), 0.0);
+    }
+    
