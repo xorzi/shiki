@@ -66,6 +66,28 @@
     background-position: center center;
     background-size: cover;    
 }
+
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after { 
+      background-image: url("https://i.ibb.co/7K9023p/tatami-galaxy.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
  .b-achievement[data-hint="Драма level 1"] .c-image .inner a {
     visibility: hidden;
 }
