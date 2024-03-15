@@ -1,108 +1,52 @@
+/*Замена обложек*/
 
-/* Общие настройки обложек на станицах тайтлов */
-.p-db_entries .b-db_entry .c-poster center {
-    position: relative;
-  }
-  
-  .p-db_entries .b-db_entry .c-poster center::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    max-width: 225px;
-    margin: auto;
-    background-position: top center;
-    background-size: cover;
-  }
-  
-  .p-db_entries .b-db_entry .c-poster img {
-    vertical-align: top;
-  }
-  /* Смена обложки – Fate/kaleid liner Prisma☆Illya (манга) */
-  .p-db_entries meta[content *= "characters/11222-"] ~ .b-db_entry .c-poster center::after {
-    background-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg");
-  }
-  
-  /*20 век мальчишек*/
-  .b-catalog_entry > a[href *= 'mangas/3-'] img,
-  .entry-tooltip_container > .image-link[href *= 'mangas/3-'] img {
-      opacity: 0;
-  }
-  .b-catalog_entry a[href *= 'mangas/3-'] .image-cutter,
-  .entry-tooltip_container > .image-link[href *= 'mangas/3-'] {
-      background-image: url(https://i.ibb.co/hY72FCz/20th.jpg);
-  }
-  .c-poster [alt="20th Century Boys"] {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      min-height: 350px;
-      min-width: 229.66px;
-  }
-  .c-poster img[alt="20th Century Boys"] {
-     content: url("https://i.ibb.co/hY72FCz/20th.jpg");
-     object-position: 10% 50%;
-  }
-  
-  /*Стальной алхимик Братство*/
-  .b-catalog_entry > a[href *= 'animes/z5114-'] img,
-  .entry-tooltip_container > .image-link[href *= 'animes/z5114-'] img {
-      opacity: 0;
-  }
-  .b-catalog_entry a[href *= 'animes/z5114-'] .image-cutter,
-  .entry-tooltip_container > .image-link[href *= 'animes/z5114-'] {
-      background-image: url(https://i.ibb.co/5L8QRmx/Fullmetal.jpg);
-  }
-  
-  .c-poster [alt="Fullmetal Alchemist:Brotherhood"] {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      min-height: 350px;
-      min-width: 229.66px;
-  }
-  
-  .c-poster img[alt="Fullmetal Alchemist: Brotherhood"] {
-     content: url("https://i.ibb.co/5L8QRmx/Fullmetal.jpg");
-     object-position: 10% 50%;
-  }
-  
-  .bubbled-processed img[src *= "https://dere.shikimori.one/system/animes/x48/5114.jpg?1617271632"]{
-      content:url(https://i.ibb.co/5L8QRmx/Fullmetal.jpg);
-  }
-  
-  .b-catalog_entry-tooltip .inner .additional-images .link img[src *= "https://dere.shikimori.one/system/animes/x48/5114.jpg?1617271632"]{
-         content:url(https://i.ibb.co/5L8QRmx/Fullmetal.jpg);
-  }
-  
-  /*Неверленд*/
-  .b-catalog_entry > a[href *= 'animes/z37779-'] img,
-  .entry-tooltip_container > .image-link[href *= 'animes/z37779-'] img {
-      opacity: 0;
-  }
-  .b-catalog_entry a[href *= 'animes/z37779-'] .image-cutter,
-  .entry-tooltip_container > .image-link[href *= 'animes/z37779-'] {
-      background-image: url(https://i.ibb.co/nM1td5G/Neverland.jpg);
-  }
-  
-  .c-poster [alt="Yakusoku no Neverland"] {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-      min-height: 350px;
-      min-width: 229.66px;
-  }
-  
-  .c-poster img[alt="Yakusoku no Neverland"] {
-     content: url("https://i.ibb.co/nM1td5G/Neverland.jpg");
-     object-position: 10% 50%;
-  }
-      
-      
-  
-  /*ОБЛОЖКИИИИИИИ*/
+/*Для упрощения замены постеров  в списках и подсказках*/
+.b-catalog_entry-tooltip>.entry-tooltip_container>a {
+	display: flex;
+	align-self: flex-start;
+	position: relative;
+	max-width: 160px;
+}
+.b-catalog_entry-tooltip>.entry-tooltip_container>a::before {
+	content: '';
+	display: block;
+	width: 160px;
+	padding-bottom: 155.5556%;
+	background: var(--custom-image,none) var(--custom-settings,center top/cover);
+}
+.b-catalog_entry-tooltip>.entry-tooltip_container>a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: var(--show-default,1);
+}
+.b-catalog_entry>.cover img {
+	opacity: var(--show-default,1);
+}
+.b-catalog_entry>.cover .image-cutter {
+	background: var(--custom-image,none) var(--custom-settings,center top/cover);
+}
+.is-spoilers .b-catalog_entry>.cover .image-cutter {
+	--show-default: 1;
+	--custom-image: none;
+}
+.c-poster img{
+    content: var(--custom-image,none);
+    object-fit: cover;
+	width: 100%;
+    min-height: 350px;
+    min-width: 229.66px;
+}
+
+/* Шаблон */
+/*
+[href*="characters/-"] {
+    --show-default: 0;
+    --custom-image: url("");
+}
+*/
+
+/*АНИМЕ*/
 /* Тетрадь смерти */
 /* V Этот постер глючный, поэтому прописывается дважды*/
 [href*="animes/1535-"]{
@@ -113,25 +57,46 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/12RZVS3/Death-Note.jpg");
 }
-/* Идеальная грусть */
+/*Стальной алхимик Братство*/
+[href*="animes/z5114-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/5L8QRmx/Fullmetal.jpg");
+} 
+/*Неверленд*/
+[href*="animes/z37779-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/nM1td5G/Neverland.jpg");
+} 
+/*Идеальная грусть */
 [href*="animes/437-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg");
 }
-/* Ван пис */
+/*Ван пис */
 [href*="animes/21-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/wBYqv1f/i-23.jpg");
 }
-/* Аниме Паразит */
+/*Аниме Паразит */
 [href*="animes/22535-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hs0qYts/Parasyte.jpg");
 }
-/* Аниме Сага о винланде */
+/*Аниме Сага о винланде */
 [href*="animes/37521-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hcY6wyd/Vinland-saga.jpg");
+}
+
+
+
+
+
+/*МАНГА*/
+/*20 век мальчишек*/
+ [href*="mangas/3-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/hY72FCz/20th.jpg");
 }
 /* ДжоДжо 7 */
 [href*="mangas/1706-"] {
@@ -161,64 +126,14 @@
 
 
 
-/*Для упрощения замены постеров  в списках и подсказках*/
-.b-catalog_entry-tooltip>.entry-tooltip_container>a {
-	display: flex;
-	align-self: flex-start;
-	position: relative;
-	max-width: 160px;
-}
 
-.b-catalog_entry-tooltip>.entry-tooltip_container>a::before {
-	content: '';
-	display: block;
-	width: 160px;
-	padding-bottom: 155.5556%;
-	background: var(--custom-image,none) var(--custom-settings,center top/cover);
-}
 
-.b-catalog_entry-tooltip>.entry-tooltip_container>a img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: var(--show-default,1);
-}
-
-.b-catalog_entry>.cover img {
-	opacity: var(--show-default,1);
-}
-
-.b-catalog_entry>.cover .image-cutter {
-	background: var(--custom-image,none) var(--custom-settings,center top/cover);
-}
-
-.is-spoilers .b-catalog_entry>.cover .image-cutter {
-	--show-default: 1;
-	--custom-image: none;
-}
-
-.c-poster img{
-    content: var(--custom-image,none);
-    object-fit: cover;
-	width: 100%;
-    min-height: 350px;
-    min-width: 229.66px;
- }
-
-/* Шаблон */
-/* */
-[href*="characters/-"] {
-    --show-default: 0;
-    --custom-image: url("");
-}
-
+/*ПЕРСОНАЖИ*/
 /* Джолин Куджо */
 [href*="characters/11222-"],[alt="Джолин Куджо"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg");
-  
-  }
-
+    --custom-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg"); 
+}
 /* Диего Брандо */
 [href*="characters/20148-"] {
     --show-default: 0;
@@ -436,7 +351,10 @@
 }
 
 
-/*Люди*/
+
+
+
+/*ЛЮДИ*/
 /*Eve*/
 [href*="people/49130-"]{
   --show-default: 0;
