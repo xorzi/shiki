@@ -1,0 +1,69 @@
+/*Адаптация под мобильное устройство*/
+@media screen and (max-width: 767px) {
+	.b-stats_bar a.title, .b-stats_bar .title {
+		font-size: 14px;
+		margin-bottom: 3px;
+		position: absolute;
+		width: 91%;
+		text-align: center;
+		z-index: 2;
+		line-height: 38px;
+		font-size: 16px;
+		opacity: 0.5;
+	}
+
+	.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+		color: rgb(0 0 0 / 0%);
+	}
+
+	.b-stats_bar.manga .bar .first {
+		border-radius: 45px 0 0 45px;
+	}
+
+	.b-stats_bar.manga .bar .second {
+		border-radius: 0 45px 45px 0;
+	}
+
+	.b-stats_bar.anime .bar .first {
+		border-radius: 45px 0 0 45px;
+	}
+
+	.b-stats_bar.anime .bar .third {
+		border-radius: 0 45px 45px 0;
+	}
+
+	.p-profiles-show .lifetime .times .time.checked {
+		color: rgba(var(--dark-color), var(--hundred));
+		font-weight: bold;
+		white-space: normal;
+		min-width: 50px;
+		line-height: 20px;
+	}
+
+	.p-profiles-show .lifetime .bar {
+		display: none;
+	}
+
+	.p-profiles-show .lifetime .times {
+		display: none;
+	}
+    /*Убрать рекламу*/
+	.spns_mt_footer_300x250 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.p-profiles .profile-head .c-history .entry {
+		margin: 0;
+		position: relative;
+		display: block;
+		margin-top: 0px;
+		clear: both;
+		float: none;
+		width: 100% !important;
+		animation: history 15s steps(3, end) infinite !important;
+		box-shadow: none !important;
+		opacity: 80%;
+	}
+}
