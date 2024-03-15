@@ -1,0 +1,64 @@
+/*Аккордион картинок*/
+.menu-slide-inner > .l-content { width: 100% }
+
+@media only screen and (min-width : 1024px) {
+    .accordion {
+        width: 100%;
+        max-width: 1450px;
+        height: 600px;
+        overflow: hidden;
+        margin: 50px auto;
+    }
+
+    .accordion .slider {
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion .slider .slide {
+        display: table-cell;
+        vertical-align: bottom;
+        position: relative;
+        width: 16.666%;
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: all 500ms ease;
+    }
+
+    .accordion .slider .slide:nth-child(1) {
+        background-image: url('https://i.ibb.co/VwkRVBc/1.png');
+    }
+
+    .accordion .slider .slide:nth-child(2) {
+        background-image: url('https://i.ibb.co/HxCQT8J/2.png');
+    }
+
+    .accordion .slider .slide:nth-child(3) {
+        background-image: url('https://i.ibb.co/27RJWzW/3.png');
+    }
+
+    .accordion .slider .slide:nth-child(4) {
+        background-image: url('https://i.ibb.co/vhvN032/4.png');
+    }
+
+    .accordion .slider .slide:nth-child(5) {
+        background-image: url('https://i.ibb.co/jHwKHYj/5.png');
+    }
+
+    .accordion .slider .slide:nth-child(6) {
+        background-image: url('https://i.ibb.co/gjv76zz/6.png');
+    }
+
+    .accordion .slider:hover .slide {
+        width: 5%;
+    }
+
+    .accordion .slider:hover .slide:hover {
+        width: 25%;
+    }
+}
