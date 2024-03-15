@@ -1,0 +1,296 @@
+/*Тетрадь смерти*/
+.b-catalog_entry > a[href *= 'animes/1535-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/1535-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'animes/1535-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/1535-'] {
+    background-image: url(https://i.ibb.co/12RZVS3/Death-Note.jpg);
+}
+
+/*Идеальная грусть*/
+.b-catalog_entry > a[href *= 'animes/437-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/437-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'animes/437-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/437-'] {
+    background-image: url(https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg);
+}
+
+/*Аниме Паразит*/
+.b-catalog_entry > a[href *= 'animes/22535-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/22535-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'animes/22535-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/22535-'] {
+    background-image: url(https://i.ibb.co/hs0qYts/Parasyte.jpg);
+}
+
+/*Аниме Сага о винланде*/
+.b-catalog_entry > a[href *= 'animes/37521-'] img,
+.entry-tooltip_container > .image-link[href *= 'animes/37521-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'animes/37521-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'animes/37521-'] {
+    background-image: url(https://i.ibb.co/hcY6wyd/Vinland-saga.jpg);
+}
+
+/*ДжоДжо 7*/
+.b-catalog_entry > a[href *= 'mangas/1706-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/1706-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'mangas/1706-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/1706-'] {
+    background-image: url(https://i.ibb.co/f44jKW8/Steel-Ball-Run.jpg);
+}
+
+/*Бродяга*/
+.b-catalog_entry > a[href *= 'mangas/656-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/656-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'mangas/656-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/656-'] {
+    background-image: url(https://i.ibb.co/gT4xjD5/Vagabond.jpg);
+}
+
+/*Берсерк*/
+.b-catalog_entry > a[href *= 'mangas/2-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/2-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'mangas/2-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/2-'] {
+    background-image: url(https://i.ibb.co/f267XgT/Berserk.jpg);
+}
+
+/*Винланд Сага*/
+.b-catalog_entry > a[href *= 'mangas/642-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/642-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'mangas/642-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/642-'] {
+    background-image: url(https://i.ibb.co/XYk8WGV/Vinland-Saga.jpg);
+}
+/*Дорохедоро*/
+.b-catalog_entry > a[href *= 'mangas/1133-'] img,
+.entry-tooltip_container > .image-link[href *= 'mangas/1133-'] img {
+    opacity: 0;
+}
+.b-catalog_entry a[href *= 'mangas/1133-'] .image-cutter,
+.entry-tooltip_container > .image-link[href *= 'mangas/1133-'] {
+    background-image: url(https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg);
+}
+
+
+
+
+
+
+
+/*Для упрощения замены постеров  в списках и подсказках*/
+.b-catalog_entry-tooltip>.entry-tooltip_container>a{display:flex;align-self:flex-start;position:relative;max-width:160px}.b-catalog_entry-tooltip>.entry-tooltip_container>a::before{content:'';display:block;width:160px;padding-bottom:155.5556%;background:var(--custom-image,none) var(--custom-settings,center top/cover)}.b-catalog_entry-tooltip>.entry-tooltip_container>a img{position:absolute;top:0;left:0;opacity:var(--show-default,1)}.b-catalog_entry>.cover img{opacity:var(--show-default,1)}.b-catalog_entry>.cover .image-cutter{background:var(--custom-image,none) var(--custom-settings,center top/cover)}.is-spoilers .b-catalog_entry>.cover .image-cutter{--show-default:1;--custom-image:none}
+/* Шаблон */
+/* */
+[href*="characters/-"] {
+    --show-default: 0;
+    --custom-image: url("");
+}
+
+/* Джолин Куджо */
+[href*="characters/11222-"] {
+  --show-default: 0;
+  --custom-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg");
+}
+
+/* Диего Брандо */
+[href*="characters/20148-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/XZCVRZt/Diego.jpg");
+}
+/* Аскеладд */
+[href*="characters/13020-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/R3D6w2b/image.jpg");
+}
+/* Трафальгар Ло*/
+[href*="characters/13767-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/CM3jRbL/8d0c633e14d7fa9c63d7c6f70acb1ec2.jpg");
+}
+/* Камина*/
+[href*="characters/2075-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/TwQyP67/Kamina.jpg");
+}
+/* Нико Робин*/
+[href*="characters/61-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/KbcMCdz/2520144.jpg");
+}
+/* Ророноа Зоро*/
+[href*="characters/62-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/s28h34t/photoshop-P2-Hvnv-Hf-T5.png");
+}
+/* Луффи*/
+[href*="characters/40-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/s2DV8QW/AaHXO7.jpg");
+}
+/* Ягами Лайт*/
+[href*="characters/80-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/G3pXbYf/2479393.jpg");
+}
+/* Спайк Шпигель */
+[href*="characters/1-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/2gqRDq9/7c57685902bf518e2de6a4e44a51e2ae.jpg");
+}
+/* Гатс */
+[href*="characters/422-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/2KZPzVw/berserk.jpg");
+}
+/* Эл */
+[href*="characters/71-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/wJsFCQ8/p-Ed-En-T0xya-I.jpg");
+}
+/* Эдвард Элрик Цельнометаллический алхимик */
+[href*="characters/11-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/kqPpwfh/CYgFEF.png");
+}
+/* Лелуш Ламперуж */
+[href*="characters/417-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/NVtckxZ/i-1.jpg");
+}
+/* Эйкити Онидзука */
+[href*="characters/434-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/V96dNH4/photoshop-Rm27-Uo-Bz-Vr.png");
+}
+/* Сенку Ишигами */
+[href*="characters/148984-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/WFJdX8N/df8e2b46995abd96a7f1dfb4c7540d07.jpg");
+}
+/* Хисока */
+[href*="characters/31-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/DVP6Xv0/photoshop-Xn-JRIPl4-SK.png");
+}
+/* Авилио Бруно */
+[href*="characters/141202-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/0mwYYT0/fa444f5bd3d4c0704b21f87857494cc1.jpg");
+}
+/* Алукард */
+[href*="characters/601-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/dj8JtJW/image.png");
+}
+/* Кискэ */
+[href*="characters/z210-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/FqqQKwp/8db92.jpg");
+}
+/* Леонардо Уотч */
+[href*="characters/118607-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg");
+}
+/* Ёруити (Йоруичи) Сихоин */
+[href*="characters/908-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/TMysxH8/1930952.jpg");
+}
+/* Лиза Лиза */
+[href*="characters/21960-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/yy4fYLM/97a98e99a3385f3e584f9d0eb062faa7.jpg");
+}
+/* Фэй Валентайн */
+[href*="characters/2-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/dLC0FCG/2430876.jpg");
+}
+/* Реви */
+[href*="characters/458-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/hc0jVhn/1532894219146126419.png");
+}
+/* Фубуки Адская метель */
+[href*="characters/81931-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/NNFVkr0/i-18.jpg");
+}
+/* Шизуку Муросаки */
+[href*="characters/z5833-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/5Wn0KXh/photoshop-i-Gfs-RVw-GTE.png");
+}
+/* Йорха 2b */
+[href*="characters/153798-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/59h6GcQ/sx-Lo-Uv-Llxw8.jpg");
+}
+/* Маки Дзэнин */
+[href*="characters/164482-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/StbGjtX/photoshop-itav-Rt-SUOY.png");
+}
+/* Гилейн Дедорудия */
+[href*="characters/111741-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/jH1JnD1/photoshop-HHWs-WRnhcd.png");
+}
+/* Руми Усагияма Мируко */
+[href*="characters/162596-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/sbY358N/3025558c1e82954cd2a1955e0c6cff7e.jpg");
+}
+/* Бруно Буччеллати */
+[href*="characters/13045-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/zhY5dYb/photoshop-7-RYcw-Xddg-S.png");
+}
+/* Жан Пьер Порнолев */
+[href*="characters/4368-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/Z8ZNxJb/photoshop-6-ZOsp-FLQus.png");
+}
+/* Джозеф Джостар */
+[href*="characters/6356-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/MPzrJnX/Fu-FNPPBa-YAAST76.jpg");
+}
+/* Кишибе Рохан */
+[href*="characters/12659-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/ZVf1y1P/V6cm-Nno-Gh-O.png");
+}
+/* Тоа Такути */
+[href*="characters/16589-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/CnBhMP7/photoshop-CPemk3u-SRr.png");
+}
+/* Ваташи(я) */
+[href*="characters/30579-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/Cv0tNqr/m1000x1000.jpg");
+}
+/*Роуз Целитель*/
+[href*="characters/191332-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/6PBxSt3/photoshop-jh-WL9-Bc-G9g.png");
+  }
+  
