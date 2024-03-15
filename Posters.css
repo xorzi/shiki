@@ -134,6 +134,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg"); 
 }
+/*Итачи Учиха*/
+[href*="characters/14-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg");
+}
 /*Диего Брандо*/
 [href*="characters/20148-"] {
     --show-default: 0;
