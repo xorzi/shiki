@@ -325,3 +325,9 @@ body::-webkit-scrollbar-thumb {
 #profiles_show .tooltip-inner {
 	width: 440x;
 }
+
+
+/*В блоке коллекция вкладка "еще" слишком длинная, укоротим*/
+.b-catalog_entry .cover .image-decor .image-cutter {
+    padding-bottom: initial;
+}

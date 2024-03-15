@@ -1,0 +1,223 @@
+/*Вкладка достижения*/
+body.p-achievements.p-profiles .l-footer:before {
+    content: "Theme by Yuutsu" !important;
+    color: #fff;
+}
+
+body.p-achievements.p-profiles:after {
+        background-image: url(https://i.ibb.co/12VMKv4/Yumeko.jpg);
+
+}
+@media only screen and (min-width: 768px){
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu > .legend {
+    background: linear-gradient(to right, rgb(54 54 54 / 60%) 0%, rgb(86 86 86 / 69%) 10%, rgb(86 86 85) 30%, rgb(47 47 47 / 60%) 100%);
+    color: #ffffff;
+}}
+
+body.p-achievements.p-profiles header.head h1 a.back:before, body.p-achievements.p-profiles header.head h2 a.back:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.main > span span, body.p-achievements.p-profiles a.menu-icon, body.p-achievements.p-profiles .l-top_menu-v2 .icon-profile:before, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:after, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown .submenu-triangle:after {
+    color: #ffffff !important;
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu {
+    background: linear-gradient(
+270deg
+, rgb(22 22 22 / 70%) 0%, rgb(12 12 12 / 70%) 70%, rgb(15 15 15 / 70%) 90%);
+}
+
+@media only screen and (min-width: 768px){
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.profile .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown.active .submenu-triangle:hover, body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown > span:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a:hover, body.p-achievements.p-profiles .l-top_menu-v2 .submenu > a.active:hover {
+    background: rgb(20 20 20 / 84%);
+    }}
+
+
+
+@media only screen and (min-width: 1025px){
+body.p-achievements.p-profiles .l-top_menu-v2:hover .global-search input {
+    background: rgba(var(--light-color), 0.07);
+}}
+
+@media only screen and (min-width: 768px){
+body.p-achievements.p-profiles .l-top_menu-v2:hover {
+    background: linear-gradient(to bottom, rgb(19 19 19 / 77%) 0%, rgb(20 20 20 / 77%) 70%, rgb(19 19 19 / 76%) 100%) !important;
+    }}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-marker {
+        color: rgba(var(--light-color), 0.8);
+}
+
+
+
+body.p-achievements.p-profiles .headline, body.p-achievements.p-profiles .subheadline {
+    background: linear-gradient(to right, rgba(36, 35, 35, 0.6), rgba(20, 20, 20, 0.9), rgba(35, 35, 35, 0.6));
+    color: #fff !important;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 25px!important;
+    justify-content: center;
+}
+
+body.p-achievements.p-profiles .b-options-floated {
+    position: absolute;
+    left: 10px;
+    top: -32px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 86px!important;
+    margin: 0 auto;
+    height: 15px;
+    padding: 11px 7px 6px;
+    background: rgba(20, 20, 20, 0.9);
+    color: #fff;
+    box-sizing: content-box;
+    border-radius: 50%/ 33px 33px 0 0;
+}
+
+
+body.p-achievements.p-profiles .l-top_menu-v2 {
+    background: linear-gradient(to bottom, #0000 0%, rgba(41, 41, 41, 0) 70%, rgba(41, 41, 41, 0) 100%);
+    box-shadow: 0 1px 20px 10px #0000;
+}
+
+body.p-achievements.p-profiles .b-to-top .slide:before {
+    background: rgb(27, 27, 27);
+}
+
+body.p-achievements.p-profiles{
+
+background-color:rgba(35, 35, 35, 0.5);
+
+border-bottom-color:rgb(255,255,255);
+
+border-left-color:rgb(255,255,255);
+
+border-right-color:rgb(255,255,255);
+
+border-top-color:rgb(255,255,255);
+
+box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 6px 2px;
+
+color:rgb(241, 230, 209);
+
+}
+
+body.p-achievements.p-profiles .b-options-floated a {
+    color: #fff;
+}
+
+body.p-achievements.p-profiles header.head.misc a {
+    color: #fff!important;
+}
+
+body.p-achievements.p-profiles header.head h2, body.p-achievements.p-profiles header.head h1 {
+    color: #fff !important;
+}
+
+body.p-achievements.p-profiles .b-breadcrumbs > span:after {
+    color: #fff;
+}
+
+body.p-achievements.p-profiles .block2 .b-nothing_here {
+    color: #fff !important;
+}
+
+body.p-achievements.p-profiles .l-footer .links a {
+    color: #fff;
+}
+
+body.p-achievements.p-profiles .l-footer .copyright {
+    color: #fff;
+}
+
+body.p-achievements.p-profiles .headline:after, body.p-achievements.p-profiles .subheadline:after, body.p-achievements.p-profiles .headline:before, body.p-achievements.p-profiles .subheadline:before {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+body.p-achievements.p-profiles .b-to-top .arrow:before {
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.5);
+}
+
+body.p-achievements.p-profiles .b-list_switchers > *:after {
+    color: rgba(255, 255, 255, 0.4);
+    background: rgba(35, 35, 35, 0.75);
+}
+
+body.p-achievements.p-profiles .b-list_switchers > *.selected:after {
+    background: rgba(24, 24, 24, 0.9);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/*Шапка ачивок*/
+body.p-achievements.p-profiles .l-top_menu-v2 .submenu {
+    background: linear-gradient(
+180deg
+, rgb(22 22 22 / 90%) 0%, rgb(32 32 32 / 90%) 70%, rgb(15 15 15 / 90%) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .hotkey-marker {
+    border: 1px solid rgb(111 111 111 / 40%);
+    color: rgb(107 107 107 / 42%);
+}
+
+@media only screen and (min-width: 1025px){
+body.p-achievements.p-profiles .l-top_menu-v2.is-search-focus .global-search input {
+    background: rgb(119 119 119 / 12%);
+}}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results {
+    background: linear-gradient(
+172deg
+, rgb(11 11 11 / 90%) 0%, rgb(15 15 15 / 72%) 70%, rgb(22 22 22 / 70%) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .nothing_found:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:hover, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .b-db_entry-variant-list_item:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:focus, body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:hover {
+    background: linear-gradient(
+168deg
+, rgb(88 88 88 / 15%) 0%, rgb(58 58 58 / 25%) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active:before {
+    background: linear-gradient(to right, rgb(115 115 115 / 55%) 0%, rgb(121 119 117 / 55%) 30%, rgb(131 131 131 / 0%) 75%, rgb(149 149 149 / 0%) 100%);
+}
+
+body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode:before {
+    background: linear-gradient(to right, rgb(117 116 116 / 40%) 0%, rgb(78 76 76 / 40%) 30%, rgb(255 255 255 / 0%) 75%, rgba(255, 225, 167, 0) 100%);
+}
+
+/*Обводка*/
+.b-add_to_list.planned.expanded .trigger, .b-add_to_list.planned .trigger, .b-add_to_list.completed.expanded .trigger, .b-add_to_list.completed .trigger, .b-add_to_list.dropped.expanded .trigger, .b-add_to_list.dropped .trigger, .b-add_to_list.on_hold.expanded .trigger, .b-add_to_list.on_hold .trigger, .b-add_to_list.watching.expanded .trigger, .b-add_to_list.watching .trigger, .b-add_to_list.rewatching.expanded .trigger, .b-add_to_list.rewatching .trigger {
+    border: 2px solid #3f434626;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+    border-radius: 12px;
+}
+
+add_to_list.rewatching .trigger {
+    border: 2px solid #3f434626;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 20%) !important;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.b-add_to_list.planned.expanded .trigger, .b-add_to_list.planned .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+.b-add_to_list.completed.expanded .trigger, .b-add_to_list.completed .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+.b-add_to_list.dropped.expanded .trigger, .b-add_to_list.dropped .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+.b-add_to_list.on_hold.expanded .trigger, .b-add_to_list.on_hold .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+.b-add_to_list.watching.expanded .trigger, .b-add_to_list.watching .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+.b-add_to_list.rewatching.expanded .trigger, .b-add_to_list.rewatching .trigger:after {
+    border-radius: 12px 12px 0px 0px;
+}
+
+.b-add_to_list .expanded-options {
+    border-radius: 0 0 12px 12px;
+}
