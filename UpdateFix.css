@@ -331,3 +331,398 @@ body::-webkit-scrollbar-thumb {
 .b-catalog_entry .cover .image-decor .image-cutter {
     padding-bottom: initial;
 }
+
+
+/*Доработка в связи с обновлением сайта*/
+.p-dashboards-show .v2 .my-list {
+    background: rgba(var(--block-color), 0.3);
+  }
+  
+  .p-dashboards-show .v2 .my-list .label span {
+    color: #fff;
+  }
+  
+  .b-user_rate-history img {
+      border-radius: 5px;
+  }
+  
+  .p-dashboards-show .v2 .my-list .label .misc-links {
+      margin-left: 7px;
+      flex-shrink: 0;
+  }
+  
+  .b-user_rate-history .progress .completed {
+      background: linear-gradient(
+  309deg
+  , #feda75bf, #fa7e1ecc, #d62976c7, #962fbfc7, #4f5bd5d4)!important;
+  }
+  
+  .p-dashboards-show .v2 .my-list .label .misc-links a {
+      font-size: 10px;
+  }
+  
+  @media screen and (max-width: 1023px){
+  .p-dashboards-show .v2 .mobile-slider-prev, .p-dashboards-show .v2 .mobile-slider-next {
+      display: none;
+  }}
+  
+  .b-user_rate-history .progress {
+      border-radius: 10px;
+      background: #00000030;
+  }
+  
+  .b-user_rate-history .progress .completed{
+      border-radius: 10px;
+  }
+  
+  .b-user_rate-history .title {
+      line-height: normal;
+      font-size: 16px;
+  }
+  
+  @media screen and (max-width: 1024px){
+  .p-profiles .profile-head .c-history .entry img {
+    display: none;
+  }}
+  
+  .p-profiles .profile-head .c-history .entry img {
+      border-radius: 4px;
+  }
+  
+  @media only screen and (min-width: 1025px){
+  .b-edit_styles .edit_style .style_css label:after {
+      content: "";
+      margin-left: 5px;
+      font-size: 15px;
+  
+  }}
+  
+  .b-edit_styles .edit_style .style_css .editor-collapse.active {
+      display:none;
+  }
+  
+  .l-top_menu-v2 .menu-icon.contest:after {
+      content: '\2713';
+      font-family: shikimori;
+      margin-right: 15px;
+  }
+  
+  /*поправки*/
+  .p-user_rates-index .list-posters .user_rate>.text:before {
+      background: rgb(13 14 18 / 32%);
+  }
+  
+  /*Статус на сайте */
+  .p-profiles .profile-head .c-info .c-lists-info .b-stats_bar .compatibility a, header.head .misc {
+      font-size: 0px !important;
+  }
+  
+  /*АВА*/
+  .p-profiles .profile-head .c-brief .avatar  img { 
+     visibility: hidden
+  }
+  .p-profiles .profile-head .c-brief .avatar::before {
+      content: '';
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      margin-top: -2.05rem;
+      box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  @media screen and (max-width: 650px) {
+      .p-profiles .profile-head .c-brief .avatar::before {
+          content: '';
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          background-size: cover;
+          background-position: center;
+          border-radius: 50%;
+          margin-top: -0.50rem;
+          margin-left: -0.65rem;
+          box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  .p-profiles .profile-head .c-brief header .notice .span {
+      font-size: 0px !important;
+  }
+  
+  .p-profiles .profile-head .c-brief header.head .misc span {
+      display: none;
+  }
+  
+  .l-footer:after {
+    content: "";
+    display: none !important;
+  }
+  
+  @media screen and (min-width: 1px) {
+    .correct-mob-version {
+      color: normal;
+    }
+  }
+  
+  @media screen and (min-width: 1px) {
+    html:root {
+      --white-color: 255, 255, 255;
+      --light-color: 191, 197, 208;
+      --dark-color: 159, 169, 181;
+      --bright-color: 173, 191, 222;
+      --dull-color: 111, 123, 125;
+      --input-color: 100, 106, 115;
+      --hover-bottoms-1: 35, 37, 43;
+      --buttoms-color: 67, 82, 101;
+      --hover-buttoms-2: 128, 128, 192;
+      --very-high-rating: 41, 41, 41;
+      --high-rating: 41, 41, 41;
+      --average-rating: 41, 41, 41;
+      --small-rating: 41, 41, 41;
+      --time-filled: 41, 41, 41;
+      --time-empty: 68, 68, 68;
+      --anime-inprocess: 104, 124, 204;
+      --anime-complete: 71, 94, 199;
+      --manga-inprocess: 166, 166, 210;
+      --manga-complete: 128, 128, 192;
+      --hover-color: 128, 128, 192;
+      --shadows-color: 121, 140, 171;
+      --block-color: 65, 71, 82;
+      --menu-back: 17, 17, 17;
+      --nick-cover: 81, 94, 103;
+      --popup-color: 57, 63, 72;
+      --hundred: 1;
+    }
+  }
+  
+  /*Замена надписей снизу*/
+  .l-footer:before {
+      content: 'Theme by Yuutsu';
+  }
+  
+  /* Полностью убираем иконку */
+  .l-top_menu-v2 .logo-container .glyph {
+    display: none;
+  }
+  /* Меняем название в логотипе на свою картинку */
+  .l-top_menu-v2 .logo-container .logo {
+    background-image: url('https://i.ibb.co/FJgBy1S/ljk-Kill-The-Noise.png');
+    height: px;
+    margin-top: 3px;
+  }
+  
+  .p-profiles .profile-head .c-history .entry .title {
+      text-overflow: clip;
+      animation: runningtext 0s ease-in-out infinite;
+      animation-delay: 5s;
+  }
+  
+  
+  body[data-locale=en] .b-new_marker:before {
+      right: 0px;
+  }
+  
+  .b-height_shortener .expand:before {
+      content: '';
+  }
+  
+  .b-video.fixed .video-link img{
+  border-radius: 10px;
+  }
+  
+  /*Настройки для постера*/
+  @media screen and (min-width: 1000px) {
+    .b-image.b-poster img{
+  width: 1300px;
+  margin: 30px;
+  }}
+  
+  .tooltip-inner { background: none repeat scroll 0 0 rgba(var(--menu-back), 1);}
+  
+  /*Марки*/
+  .b-video .marker, 
+  .b-image .marker {
+    display: none;
+   }
+  
+  /*Анимация почты*/
+  .l-top_menu-v2 .menu-icon.mail:after {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 5;
+      right: 100;
+      width: 28px;
+      height: 28px;
+      padding: 1px;
+      margin: 8px 10px 6px;
+      font-size: 18px;
+      font-family: 'Comfortaa';
+      color: #ffffff;
+      background:  rgba(var(--hover-color), var(--hundred));
+      border-radius: 6px;
+      animation: mail 0s ease 1;
+      border: none !important;
+       width: 30px; 
+  }
+  
+  /*картинки на сайте*/
+  .img {
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+  }
+  .b-image .img{
+      line-height: 1.65;
+      position: relative;
+      margin-bottom: 0;
+  
+  }
+  
+  .b-image img {
+      filter: brightness(0.9);
+      transition: 0.3s ease !important;
+      box-shadow: none;
+        border-radius:10px;
+  }
+    #profiles_show .profile-head .c-info .c-additionals {
+     display: none;
+    
+  }
+  
+  /*Обо мне */
+   .p-profiles-show .b-feedback:after{
+      display: none;
+   }
+  .b-image .normalized_width{
+      filter: grayscale(1) !important;
+      height: 135px !important;
+        margin: 5px;
+        width: 235px;
+  }
+  .profiles_show .profile-content .about.block {
+         display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-content: center;
+        
+  }
+  
+  /*Убрать марки*/
+  .b-video .marker, 
+  .b-image .marker {
+    display: none;
+   }
+
+   
+    
+   .b-db_entry > .c-image img {
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
+    border-radius: 11px;
+}
+
+
+
+
+.user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+    border-radius: 7px 0;
+}
+
+.tooltip-inner {
+    border: none;
+    color: inherit;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
+    border-radius: 12px;
+}
+
+#profiles_show .tooltip-inner {
+    width: 440x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Полезности*/
+.b-to-top.active .arrow {display: none;}
+body::-webkit-scrollbar-thumb{
+  display: none;
+}
+.l-top_menu-v2 .menu-dropdown .submenu::-webkit-scrollbar-thumb {
+   background: rgba(5, 5, 5, 0.3);
+}
+.b-catalog_entry-tooltip .inner .additional-images .link img {
+    border-radius: 4px;
+}
+.p-profiles-favorites .item-edit {
+    cursor: pointer;
+    color: #707986;
+    cursor: pointer;
+}
+.subheadline-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 9px!important;
+    background: #00000030!important;
+    border-radius: 12px;
+}
+
+
+
+/*Настройки для постера временно*/
+@media screen and (min-width: 1000px) {
+  .b-image.b-poster img{
+    width: 1300px;
+    margin: 30px;
+}}
+
+
+
+
+
+/*Стрелка*/
+.b-to-top.active .arrow {
+    z-index: 1;
+    top: 70px;
+    opacity: 0;
+}
+
+/*Шапка*/
+.l-top_menu-v2 {
+    background: rgba(var(--menu-back), 0);
+    box-shadow: 0 1px 20px 10px rgba(var(--menu-back), 0.0);
+}
