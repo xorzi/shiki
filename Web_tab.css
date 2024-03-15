@@ -1,0 +1,325 @@
+
+    /*Tab*/
+    .vk-post .b-image img {
+        max-width: 100% !important;
+    }
+    
+    :root {
+        --color-web-in-process: #ffb861;
+        --color-web-completed: #abffab;
+        --color-web-dropped: #ff9a9a;
+        --color-h: #e7a9f9;
+    }
+    
+    .vk-post.comics .notice.--in-process { color: var(--color-web-in-process); }
+    .vk-post.comics .notice.--completed { color: var(--color-web-completed); }
+    .vk-post.comics .notice.--dropped { color: var(--color-web-dropped); }
+    
+    .vk-post.comics .header {
+        background: var(--color-background);
+        border-bottom: 1px solid var(--color-border);
+        cursor: default;
+        font-size: 16px;
+        height: 55px;
+        line-height: 1;
+        margin: -15px 0 0 -20px;
+        padding: 19px 20px;
+        width: calc(100% + 40px);
+        color: #bfc5d0;
+    }
+    
+
+
+
+    .vk-post.comics .b-spoiler {
+      display: block;
+    } 
+
+    .vk-post.comics .b-spoiler label, 
+    .vk-post.comics .b-spoiler .content .before {
+        background-color: #15181c;
+        border: 0;
+        border-radius: 4px;
+        color: var(--color-text-hint);
+        font-size: 0;
+        letter-spacing: 0;
+        line-height: 26px;
+        height: 26px;
+        padding: 0 15px;
+        margin: 14px 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        user-select: none;
+        transition: .25s background-color ease;
+    }
+    
+    .vk-post.comics .b-spoiler label:before { content: 'показать'; font-size: 12.5px; }
+    [data-locale='en'] .vk-post.comics .b-spoiler label:before { content: 'show'; }
+    .vk-post.comics .b-spoiler .content .before:before { content: 'скрыть'; font-size: 12.5px; }
+    [data-locale='en'] .vk-post.comics .b-spoiler .content .before:before { content: 'hide'; }
+    
+    .vk-post.comics .b-spoiler label:hover, 
+    .vk-post.comics .b-spoiler .content .before:hover {
+        background-color: var(--color-onhold);
+    }
+    
+    .vk-post.comics .b-spoiler label:active,
+    .vk-post.comics .b-spoiler .content .before:active {
+          background-color: var(--color-onhold);
+          line-height: 27px;
+    }
+    
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .rate:after {
+      box-shadow: inset 0 0 0 2px #FFF;
+    }
+    
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .inner > a {
+      color: #FFF !important;
+      height: 200px;
+    }
+    
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .name:before,
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .rate:before {
+      display: block;
+    }
+    
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .b-image {
+        display: flex;
+    }
+    
+    .vk-post.comics .b-spoiler label[style='display: none;'] + .content .before {
+      display: block;
+    }
+    
+    .vk-post.comics .b-spoiler .content .before,
+    .vk-post.comics .b-spoiler .content .after {
+      display: none;
+    }
+    
+    .vk-post.comics .b-spoiler .content {
+      display: block !important;
+      cursor: auto;
+      margin: 15px 0 0 0;
+    }
+    
+    .vk-post.comics .b-spoiler .content .inner,
+    .vk-post.comics .b-spoiler .content .inner-prgrph {
+      border: 0;
+    }
+    
+    .vk-post.comics .inner {
+      display: flex !important;
+      align-items: flex-start;
+      align-content: flex-start;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin: -5px 0 -5px -5px;
+      user-select: none;
+      width: calc(100% + 10px);
+    }
+    
+    .vk-post.comics br { display: none; }
+    
+    .vk-post.comics a {
+        max-width: 380px;
+        border-radius: 6px;
+        color: var(--color-text-primary) !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.462;
+        min-height: 49px;
+        min-width: 350px;
+        margin: 5px;
+        overflow: hidden;
+        position: relative;
+        text-overflow: ellipsis;
+        white-space: normal;
+        flex-basis: 0;
+        flex-grow: 1;
+        background: var(--color-background-dialog);
+        transition: .25s background-color ease;
+    }
+    
+    
+    .vk-post.comics a:hover {
+        background-color: var(--color-onhold);
+    }
+    
+    .vk-post.comics a:hover { text-decoration: none !important; }
+    
+    .vk-post.comics a * { pointer-events: none; }
+    
+    .vk-post.comics .b-image {
+      background: url("data\:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FC575E' viewBox='0 0 11 5'%3E%3Cpath d='M1 2h1V0h1v5H2V3H0V0h1v2z M9 2h1V0h1v5h-1V3H8V0h1v2z M7 0H4v1h2v3H5V1H4v4h3V0z'/%3E%3C/svg%3E") no-repeat center center;
+      background-size: 99px 45px;
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-53.5%, -48%);
+      min-width: 430px;
+      min-height:200px;
+      width: fit-content;
+    }
+
+    
+    .vk-post.comics .name {
+      font-weight: 500;
+      margin: auto 39px 0 0;
+      padding: 6px 10px 0;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+    }
+    
+    .vk-post.comics .name:before {
+        background: radial-gradient(ellipse farthest-side at bottom left, rgba(0, 0, 0, 0.6), transparent);
+        content: '';
+        display: none;
+        position: absolute;
+        top: -40px;
+        right: -64px;
+        bottom: -24px;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .vk-post.comics .name.--hentai:after {
+        content: '[18+]';
+        position: absolute;
+        color: var(--color-h);
+        right: 0;
+        margin: 0 -28px;
+    }
+    
+    .vk-post.comics a:hover .name * { text-decoration: underline !important; }
+    
+    .vk-post.comics .notice {
+      font-size: 12.5px;
+      margin: 0 39px 0 0;
+      padding: 0 10px 6px;
+      z-index: 1;
+      text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+    }
+    
+    .vk-post.comics .rate {
+        font-weight: 500;
+        padding: 0 10px 6px;
+        min-height: 19px;
+        min-width: 19px;
+        order: -1;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 1;
+        text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+        color: var(--color-primary);
+    }
+    
+    .vk-post.comics .rate:before {
+      content: '';
+      display: none;
+      background: radial-gradient(ellipse farthest-side at bottom right, rgba(0, 0, 0, .6), transparent);
+      position: absolute;
+      top: -16px;
+      right: -10px;
+      bottom: -10px;
+      left: -48px;
+      z-index: -1;
+    }
+    
+    .vk-post.comics .rate:after {
+      box-shadow: inset 0 0 0 2px #000;
+      border-radius: 9.5px;
+      content: '';
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    
+    .vk-post {
+        background-color: #0b0b0c;
+        border-radius: 2px;
+        box-shadow: 0 0 0 1px #191d22;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.462;
+        margin: 7px;
+        overflow: hidden;
+        padding: 15px 20px;
+        position: relative;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+    
+    .no-margin {
+      margin: 0;
+    }
+    :root {
+      /* Цвета текстов */
+      --color-text-primary: #dfdfe0;
+      --color-text-secondary: #b0b1b2;
+      --color-text-hint: #8d8f90;
+      --color-text-disabled: #65686a;
+      --color-overlay-text-hovered: rgba(223, 223, 224, 0.04);
+      --color-overlay-text-selected: rgba(223, 223, 224, 0.08);
+      --color-overlay-text-pressed: rgba(223, 223, 224, 0.12);
+      /* Цвет ссылок */
+      --color-link: #7cb1d8;
+      --color-link-hover: #ce97c4;
+      --color-link-active: #ba6dac;
+      /* Основной цвет */
+      --color-primary: #7cb1d8;
+      --color-text-on-primary: #10171c;
+      --color-primary-reduced: #5b839f;
+      --color-primary-hovered: #86b7db;
+      --color-primary-pressed: #77aacf;
+      --color-overlay-primary-hovered: rgba(124, 177, 216, 0.08);
+      --color-overlay-primary-selected: rgba(124, 177, 216, 0.12);
+      --color-overlay-primary-pressed: rgba(124, 177, 216, 0.16);
+      /* Акцентирующий цвет */
+      --color-accent: #ce97c4;
+      --color-text-on-accent: #1b1419;
+      --color-accent-reduced: #967091;
+      --color-accent-fade: #674e65;
+      --color-overlay-accent-hovered: rgba(206, 151, 196, 0.08);
+      --color-overlay-accent-selected: rgba(206, 151, 196, 0.12);
+      --color-overlay-accent-pressed: rgba(206, 151, 196, 0.16);
+      /* Фоновые цвета */
+      --color-background: #070b0e;
+      --color-background-translucent: rgba(7, 11, 14, 0.9);
+      --color-background-dialog: #0f181f;
+      --color-surface: #121619;
+      --color-surface-hover: #25292b;
+      --color-surface-active: #2e3235;
+      --color-border: #25282b;
+      /* Цвета верхнего меню */
+      --color-menu-background: #0d0d0d;
+      --color-menu-background-fade: rgba(13, 13, 13, 0.48);
+      --color-menu-text-primary: #e0e0e0;
+      --color-menu-text-disabled: #696969;
+      --color-menu-icon: #c5c5c5;
+      --color-menu-search: #2a2a2a;
+      --color-menu-search-fade: rgba(224, 224, 224, 0.12);
+      --color-menu-background-hover: #202020;
+      --color-menu-background-active: #1d1d1d;
+      /* Цвета кнопок списков */
+      --color-planned: #2b4c5b;
+      --color-onhold: #373a3c;
+      --color-watching: #223c48;
+      --color-rewatching: #223c48;
+      --color-completed: #354029;
+      --color-dropped: #3f1c1e;
+    }
+    
+    /* бЛОК КОНЕЦ*/
