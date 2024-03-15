@@ -8,7 +8,7 @@
 }
 
 .l-top_menu-v2 .icon-profile ::before {
-	content: "Nedo-";
+	content: "Недо";
 }
 
 .l-top_menu-v2 .icon-anime_list::before {
@@ -130,6 +130,10 @@
 
 .l-top_menu-v2 .icon-articles::before {
 	content: '';
+}
+
+.l-top_menu-v2 .icon-critiques:before {
+    content: '';
 }
 
 .l-top_menu-v2 .menu-icon::before,
