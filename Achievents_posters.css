@@ -1,0 +1,574 @@
+    /*Замена постеров у франшизы*/
+    /*Бакуман*/
+    .p-profiles .b-badge[href$='/bakuman'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/bakuman'] {
+      background-image: url(https://i.ibb.co/Jk7m13r/Bakuman.gif);
+      background-size: cover;
+      border-radius: 9px;
+    }
+    /*Код Гиас*/
+    .p-profiles .b-badge[href$='/code_geass'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/code_geass'] {
+      background-image: url(https://i.ibb.co/Fzfd7kN/Code.gif);
+      background-size: cover;
+      border-radius: 9px;
+    }
+    /*ДжоДжо*/
+    .p-profiles .b-badge[href$='/jojo_no_kimyou_na_bouken'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/jojo_no_kimyou_na_bouken'] {
+      background-image: url(https://i.ibb.co/5x0PfjX/rfwrwre.gif);
+      background-size: cover;
+      border-radius: 9px;
+        
+    }
+    
+    
+    
+    .b-db_entry > .c-image img {
+        box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+    }
+    
+    .b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
+        border-radius: 11px;
+    }
+    
+    
+    
+    
+    .user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+        border-radius: 7px 0;
+    }
+    
+    .tooltip-inner {
+        border: none;
+        color: inherit;
+        box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
+        border-radius: 12px;
+    }
+    
+    #profiles_show .tooltip-inner {
+        width: 440x;
+    }
+
+ 
+/*Достижения картинки*/
+
+.b-achievement .c-image .inner a::after { 
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after { 
+      background-image: url("https://i.ibb.co/7K9023p/tatami-galaxy.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+ .b-achievement[data-hint="Драма level 1"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+
+ .b-achievement[data-hint="100 watched anime"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+ /*Гифки для ачивкок*/   
+    .b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+    }
+    
+    .b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
+        background: rgb(107 106 106 / 12%);
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
+        color: #ffffff;
+    }
+   
+
+
+
+        /*Замена постеров у франшизы*/
+    /*Бакуман*/
+    .p-profiles .b-badge[href$='/bakuman'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/bakuman'] {
+      background-image: url(https://i.ibb.co/Jk7m13r/Bakuman.gif);
+      background-size: cover;
+      border-radius: 9px;
+    }
+    /*Код Гиас*/
+    .p-profiles .b-badge[href$='/code_geass'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/code_geass'] {
+      background-image: url(https://i.ibb.co/Fzfd7kN/Code.gif);
+      background-size: cover;
+      border-radius: 9px;
+    }
+    /*ДжоДжо*/
+    .p-profiles .b-badge[href$='/jojo_no_kimyou_na_bouken'] img {visibility: hidden;}
+    .p-profiles .b-badge[href$='/jojo_no_kimyou_na_bouken'] {
+      background-image: url(https://i.ibb.co/5x0PfjX/rfwrwre.gif);
+      background-size: cover;
+      border-radius: 9px;
+        
+    }
+    
+    
+    
+    .b-db_entry > .c-image img {
+        box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 12px;
+    }
+    
+    .b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
+        border-radius: 11px;
+    }
+    
+    
+    
+    
+    .user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+        border-radius: 7px 0;
+    }
+    
+    .tooltip-inner {
+        border: none;
+        color: inherit;
+        box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
+        border-radius: 12px;
+    }
+    
+    #profiles_show .tooltip-inner {
+        width: 440x;
+    }
+
+ 
+/*Достижения картинки*/
+
+.b-achievement .c-image .inner a::after { 
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after { 
+      background-image: url("https://i.ibb.co/7K9023p/tatami-galaxy.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+ .b-achievement[data-hint="Драма level 1"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+
+ .b-achievement[data-hint="100 watched anime"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+ /*Гифки для ачивкок*/   
+    .b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+    }
+    
+    .b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
+        background: rgb(107 106 106 / 12%);
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
+        color: #ffffff;
+    }
+   
+
+/*Достижения картинки*/
+
+.b-achievement .c-image .inner a::after { 
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after { 
+      background-image: url("https://i.ibb.co/7K9023p/tatami-galaxy.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Безумие / Психологическое 1 уровня"] > .c-image .inner a[href$='/dementia_psychological']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+ .b-achievement[data-hint="Драма level 1"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+  background-image: url("https://i.ibb.co/7Qt1MNp/fullmetalalchemist2-223.jpg");
+  filter: grayscale(1) !important;
+}
+
+
+ .b-achievement[data-hint="100 watched anime"] .c-image .inner a {
+    visibility: hidden;
+}
+.b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+.b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+  background-image: url("https://i.ibb.co/MRZXN5j/6e14a58269e6800eeb74f51b805d54d2-1.jpg");
+  filter: grayscale(1) !important;
+}
+
+ /*Гифки для ачивкок*/   
+    .b-achievement[data-hint="Драма level 1"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after { 
+      background-image: url("https://i.ibb.co/sbFZNYw/F.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="Драма 1 уровня"] > .c-image .inner a[href$='/drama']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+    }
+    
+    .b-achievement[data-hint="100 watched anime"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    .b-achievement[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/SwG1WZc/100.gif");
+      filter: grayscale(1) !important;
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
+        background: rgb(107 106 106 / 12%);
+    }
+    
+    body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
+        color: #ffffff;
+    }
+   
+
+
+    
+
+
+
+
+.b-achievement[data-hint="Фэнтези 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Фэнтези 1 уровня"] > .c-image .inner a[href$='/fantasy']::after { 
+      background-image: url("https://i.ibb.co/6BZCPPH/black-fox-peureuux.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Фэнтези 1 уровня"] > .c-image .inner a[href$='/fantasy']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+
+
+
+
+
+.b-achievement[data-hint="Хоррор / Триллер 1 уровня"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="Хоррор / Триллер 1 уровня"] > .c-image .inner a[href$='/horror_thriller']::after { 
+      background-image: url("https://i.ibb.co/vwKCkhs/image.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="Хоррор / Триллер 1 уровня"] > .c-image .inner a[href$='/horror_thriller']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+
+
+.b-achievement[data-hint="200 просмотренных аниме"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="200 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/vP69kW4/black-clover-anime.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="200 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+
+
+
+
+
+
+
+
+
+.b-achievement[data-hint="150 просмотренных аниме"] .c-image .inner a {
+    visibility: hidden;
+}
+
+.b-achievement[data-hint="150 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after { 
+      background-image: url("https://i.ibb.co/VBBdShd/image.gif");
+      filter: grayscale(1) !important;
+  	
+}
+    
+.b-achievement[data-hint="150 просмотренных аниме"] > .c-image .inner a[href$='/animelist']::after {
+        -webkit-filter: none;
+          border-radius: 11px;
+          width: 104%;
+        height: 106%;
+        max-width: 105%;
+        right: -5.5px;
+        
+}
+
+
+/*Ачивка пираты черной лагуны*/
+[src="/assets/achievements/anime/franchise/black_lagoon.jpg?v5"]{
+    content: url("https://i.ibb.co/TvksV2f/black-lagoon-roberta-1.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Реинкарнация безработного*/ 
+  [src="/assets/achievements/anime/franchise/mushoku_tensei.jpg?v5"]{
+    content: url("https://i.ibb.co/QfZc6VS/rudeus-greyrat-mushoku-tensei.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка ДжоДжо*/
+  [src="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg?v5"]{
+    content: url("https://i.ibb.co/5x0PfjX/rfwrwre.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Код Гиас*/
+  [src="/assets/achievements/anime/franchise/code_geass.png?v5"]{
+    content:url("https://i.ibb.co/Fzfd7kN/Code.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Бакуман*/
+  [src="/assets/achievements/anime/franchise/bakuman.jpg?v5"]{
+    content:url("https://i.ibb.co/Jk7m13r/Bakuman.gif");
+    filter:grayscale(1);
+  }
