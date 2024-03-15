@@ -1,0 +1,161 @@
+/*Иконки*/
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("truetype"), url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
+}
+
+.l-top_menu-v2 .icon-profile ::before {
+	content: "Nedo-";
+}
+
+.l-top_menu-v2 .icon-anime_list::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-manga_list::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-characters::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-settings::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-home::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.search::before {
+	content: '_';
+}
+
+.l-top_menu-v2 .icon-anime::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-manga::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-ranobe::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-clubs::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-collections::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-reviews::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.forum::before {
+	content: 'forum';
+}
+
+.l-top_menu-v2 .icon-forum::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-calendar::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.contest::before {
+	content: 'person';
+	transform: scale(-1, 1);
+}
+
+.l-top_menu-v2 .icon-contests::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-info::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-socials::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.moderation::before,
+.l-top_menu-v2 .icon-moderation::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.mail::before,
+.l-top_menu-v2 .icon-mail::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-achievements::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-site_rules::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-faq::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-sign_out::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-people::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.sign_in::before,
+.l-top_menu-v2 .icon-users::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon.trigger::before,
+.l-top_menu-v2 .icon-other::before {
+	content: '';
+}
+
+.l-top_menu-v2 .icon-articles::before {
+	content: '';
+}
+
+.l-top_menu-v2 .menu-icon::before,
+
+.l-top_menu-v2 .submenu>a::before,
+
+.l-page .menu-toggler .toggler::before,
+
+.p-user_history-index .history-page .history-interval p .destroy::before {
+	display: block;
+	flex-shrink: 0;
+	width: 1em !important;
+	font-family: 'Material Icons' !important;
+	font-size: 24px !important;
+	font-style: normal;
+	font-weight: 400 !important;
+	line-height: 1 !important;
+	letter-spacing: normal;
+	text-transform: none;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: 'liga';
+	overflow: hidden;
+	margin-right: 16px;
+}
