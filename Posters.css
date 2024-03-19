@@ -87,7 +87,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hcY6wyd/Vinland-saga.jpg");
 }
-
+/*Аниме сквозь бальный зал*/
+[href*="animes/34636-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/8BSns6b/add526bfa6f25ac9adb6182ca48a07e1.jpg");
+}
 
 
 
@@ -354,6 +358,17 @@
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/NNLMC39/photoshop-jb-NZv8-Iy-Mz.png");
 }
+/*Бесправный ездок*/
+[href*="characters/81935-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/KG147N5/photoshop-XQSgzv-DUW1.png");
+  }
+
+/*Стиральная машина*/
+[href*="characters/157205-"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/zxHq890/3144a7a28389dd0500e0fb072a2f8b1c.jpg");
+  }
 
 
 
