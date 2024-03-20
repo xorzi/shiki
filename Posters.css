@@ -92,6 +92,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/8BSns6b/add526bfa6f25ac9adb6182ca48a07e1.jpg");
 }
+/*Аниме первый шаг*/
+[href*="animes/263"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/dBYfjb7/a832283499485a53609e96e0aa20ec76.jpg");
+}
 
 
 
@@ -127,7 +132,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg");
 }
-
+/*Сквозь бальный зал*/
+[href*="mangas/48347"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
+}
 
 
 
