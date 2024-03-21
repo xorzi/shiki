@@ -378,7 +378,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/zxHq890/3144a7a28389dd0500e0fb072a2f8b1c.jpg");
   }
-
+/*Байонетта*/
+[href*="characters/92041"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/8j5XdbK/photoshop-EHf-B04tf0-B.png");
+  }
 
 
 
