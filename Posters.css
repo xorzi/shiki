@@ -37,6 +37,9 @@
     min-height: 350px;
     min-width: 229.66px;
 }
+.mfp-content img{
+	content: var(--custom-image,none);
+}
 
 /* Шаблон */
 /*
