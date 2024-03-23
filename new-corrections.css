@@ -1,0 +1,44 @@
+/*Замена надписи снизу*/
+.l-footer:before {
+  content: 'Theme by Yuutsu';
+}
+/* Меняем название в логотипе на свою картинку */
+.l-top_menu-v2 .logo-container .logo {
+  background-image: url('https://i.ibb.co/FJgBy1S/ljk-Kill-The-Noise.png');
+  height: px;
+  margin-top: 3px;
+}
+
+/* Аниме/Манга/Ранобэ рядом с пунктами истории */
+.history-page a:before {
+  display: inline-block;
+  vertical-align: top;
+  width: 72px;
+}
+.history-page a[href ^= "/a"]:before {
+  content: "[Аниме] ";
+  color: #34a853;
+}
+.history-page a[href ^= "/m"]:before {
+  content: "[Манга] ";
+  color: #9c27b0;
+}
+.history-page a[href ^= "/r"]:before {
+  content: "[Ранобэ] ";
+  color: #039be5;
+}
+[data-locale="en"] .history-page a[href ^= "/a"]:before {
+  content: "[Anime] ";
+}
+[data-locale="en"] .history-page a[href ^= "/m"]:before {
+  content: "[Manga] ";
+}
+[data-locale="en"] .history-page a[href ^= "/r"]:before {
+  content: "[Ranobe] ";
+}
+
+/*Добавленяем к ачивкам проценты*/
+.b-achievement.is-badge::before,
+.p-profiles-show .achievements .cc-franchises .b-badge::before {
+	content: attr(data-hint) /*attr(data-title)*/" ("attr(data-progress)"%)";
+}
