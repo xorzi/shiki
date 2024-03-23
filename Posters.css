@@ -42,7 +42,7 @@
 
 /* Шаблон */
 /*
-[href*="characters/-"] {
+[href*="characters/-"],[src*="characters//"] {
     --show-default: 0;
     --custom-image: url("");
 }
@@ -51,41 +51,41 @@
 /*АНИМЕ*/
 /* Тетрадь смерти */
 /* V Этот постер глючный, поэтому прописывается дважды*/
-[href*="animes/1535-"]{
+[href*="animes/1535-"],[src*="animes/1535/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/12RZVS3/Death-Note.jpg");
 }
-[href*="animes/1535-"]{
+[href*="animes/1535-"],[src*="animes/1535/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/12RZVS3/Death-Note.jpg");
 }
 /*Стальной алхимик Братство*/
-[href*="animes/z5114-"]{
+[href*="animes/z5114-"],[src*="animes/5114/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/5L8QRmx/Fullmetal.jpg");
 } 
 /*Идеальная грусть*/
-[href*="animes/437-"] {
+[href*="animes/437-"],[src*="animes/437/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg");
 }
 /*Ван пис*/
-[href*="animes/21-"] {
+[href*="animes/21-"],[src*="animes/21/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/wBYqv1f/i-23.jpg");
+    --custom-image: url("https://i.ibb.co/vhrKSqZ/photoshop-41-V6wveqj-O.png");
 }
 /*Аниме Паразит*/
-[href*="animes/22535-"] {
+[href*="animes/22535-"],[src*="animes/22535/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hs0qYts/Parasyte.jpg");
 }
 /*Аниме Сага о винланде*/
-[href*="animes/37521-"] {
+[href*="animes/37521-"],[src*="animes/37521/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hcY6wyd/Vinland-saga.jpg");
 }
 /*Аниме сквозь бальный зал*/
-[href*="animes/34636-"] {
+[href*="animes/34636-"],[src*="animes/34636/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/8BSns6b/add526bfa6f25ac9adb6182ca48a07e1.jpg");
 }
@@ -99,41 +99,67 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/dBYfjb7/a832283499485a53609e96e0aa20ec76.jpg");
 }
+/*Аниме Рейтинг Короля*/
+[href*="animes/40834-"],[src*="animes/40834/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/r2S7vpx/photoshop-g-BXyk5-W6ic.png");
+}
+/*Аниме 91 день*/
+[href*="animes/32998-"],[src*="animes/32998/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/zVv6gqc/photoshop-o-BATKp-S0-Kw.png");
+}
+/*Аниме Хантер х Хантер*/
+[href*="animes/z11061-"],[src*="animes/11061/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/bbsgXtz/photoshop-B12yn-VB128.png");
+}
+/*Аниме ДжоДжо золотой ветер*/
+[href*="animes/37991-"],[src*="animes/37991/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/LrtQzvW/photoshop-GUHJGI5-YHN.png");
+}
+
+
+
+
+
+
 
 
 /*МАНГА*/
 /*20 век мальчишек*/
- [href*="mangas/3-"]{
+ [href*="mangas/3-"],[src*="mangas/3/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hY72FCz/20th.jpg");
 }
 /*ДжоДжо 7*/
-[href*="mangas/1706-"] {
+[href*="mangas/1706-"],[src*="mangas/1706/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/f44jKW8/Steel-Ball-Run.jpg");
 }
 /*Бродяга*/
-[href*="mangas/656-"] {
+[href*="mangas/656-"],[src*="mangas/656/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/gT4xjD5/Vagabond.jpg");
 }
 /*Берсерк*/
-[href*="mangas/2-"] {
+[href*="mangas/2-"],[src*="mangas/2/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/f267XgT/Berserk.jpg");
 }
 /*Винланд Сага*/
-[href*="mangas/642-"] {
+[href*="mangas/642-"],[src*="mangas/642/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/XYk8WGV/Vinland-Saga.jpg");
 }
 /*Дорохедоро*/
-[href*="mangas/1133-"] {
+[href*="mangas/1133-"],[src*="mangas/1133/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg");
 }
 /*Сквозь бальный зал*/
-[href*="mangas/48347-"] {
+[href*="mangas/48347-"],[src*="mangas/48347/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
 }
@@ -156,245 +182,236 @@
 
 
 
+
+
 /*ПЕРСОНАЖИ*/
 /*Джолин Куджо*/
 [href*="characters/11222-"],[src*="characters/11222/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/PY6fvcD/1691826.jpg"); 
 }
-/*Итачи Учиха*/
-[href*="characters/14-"] {
-    --show-default: 0;
-    --custom-image: url("https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg");
-}
 /*Диего Брандо*/
-[href*="characters/20148-"] {
+[href*="characters/20148-"],[src*="characters/20148/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/XZCVRZt/Diego.jpg");
 }
 /*Аскеладд*/
-[href*="characters/13020-"] {
+[href*="characters/13020-"],[src*="characters/13020/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/R3D6w2b/image.jpg");
 }
 /*Трафальгар Ло*/
-[href*="characters/13767-"] {
+[href*="characters/13767-"],[src*="characters/13767/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/CM3jRbL/8d0c633e14d7fa9c63d7c6f70acb1ec2.jpg");
 }
 /*Камина*/
-[href*="characters/2075-"] {
+[href*="characters/2075-"],[src*="characters/2075/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/TwQyP67/Kamina.jpg");
 }
 /*Нико Робин*/
-[href*="characters/61-"] {
+[href*="characters/61-"],[src*="characters/61/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/FYwfjpp/photoshop-Gq-Oze-KI3b-Y.png");
 }
 /*Ророноа Зоро*/
-[href*="characters/62-"] {
+[href*="characters/62-"],[src*="characters/62/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/s28h34t/photoshop-P2-Hvnv-Hf-T5.png");
 }
-/*Луффи*/
-[href*="characters/40-"] {
+/*Монки Д Луффи*/
+[href*="characters/40-"],[src*="characters/40/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/s2DV8QW/AaHXO7.jpg");
+    --custom-image: url("https://i.ibb.co/Ss0rG2B/photoshop-3k-Ox-R1vq-Tf.png");
 }
 /*Ягами Лайт*/
-[href*="characters/80-"] {
+[href*="characters/80-"],[src*="characters/80/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/G3pXbYf/2479393.jpg");
 }
 /*Спайк Шпигель*/
-[href*="characters/1-"] {
+[href*="characters/1-"],[src*="characters/1/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/2gqRDq9/7c57685902bf518e2de6a4e44a51e2ae.jpg");
 }
 /*Гатс*/
-[href*="characters/422-"] {
+[href*="characters/422-"],[src*="characters/422/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/2KZPzVw/berserk.jpg");
 }
 /*Эл Лоулайт*/
-[href*="characters/71-"] {
+[href*="characters/71-"],[src*="characters/71/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/wJsFCQ8/p-Ed-En-T0xya-I.jpg");
 }
 /*Эдвард Элрик Фасолина*/
-[href*="characters/11-"] {
+[href*="characters/11-"],[src*="characters/11/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/kqPpwfh/CYgFEF.png");
 }
 /*Лелуш Ламперуж*/
-[href*="characters/417-"] {
+[href*="characters/417-"],[src*="characters/417/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/NVtckxZ/i-1.jpg");
 }
 /*Эйкити Онидзука*/
-[href*="characters/434-"] {
+[href*="characters/434-"],[src*="characters/434/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/V96dNH4/photoshop-Rm27-Uo-Bz-Vr.png");
 }
 /*Сенку Ишигами*/
-[href*="characters/148984-"] {
+[href*="characters/148984-"],[src*="characters/148984/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/WFJdX8N/df8e2b46995abd96a7f1dfb4c7540d07.jpg");
 }
-/*Хисока*/
-[href*="characters/31-"] {
+/*Хисока Мороу*//*Старая обложка  https://i.ibb.co/DVP6Xv0/photoshop-Xn-JRIPl4-SK.png*/
+[href*="characters/31-"],[src*="characters/31/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/DVP6Xv0/photoshop-Xn-JRIPl4-SK.png");
+    --custom-image: url("https://i.ibb.co/M8Z6Qc2/e54525547dd9f216005e267e357297d3-1.jpg");
 }
 /*Авилио Бруно*/
-[href*="characters/141202-"] {
+[href*="characters/141202-"],[src*="characters/141202/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/0mwYYT0/fa444f5bd3d4c0704b21f87857494cc1.jpg");
 }
 /*Алукард*/
-[href*="characters/601-"] {
+[href*="characters/601-"],[src*="characters/601/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/dj8JtJW/image.png");
 }
 /*Кискэ*/
-[href*="characters/z210-"] {
+[href*="characters/z210-"],[src*="characters/210/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/FqqQKwp/8db92.jpg");
 }
 /*Леонардо Уотч*/
-[href*="characters/118607-"] {
+[href*="characters/118607-"],[src*="characters/118607/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg");
 }
 /*Ёруити (Йоруичи) Сихоин*/
-[href*="characters/908-"] {
+[href*="characters/908-"],[src*="characters/908/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/TMysxH8/1930952.jpg");
 }
 /*Лиза Лиза*/
-[href*="characters/21960-"] {
+[href*="characters/21960-"],[src*="characters/21960/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/XSVc4cM/photoshop-OHVDR98y50.png");
 }
 /*Фэй Валентайн*/
-[href*="characters/2-"] {
+[href*="characters/2-"],[src*="characters/2/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/dLC0FCG/2430876.jpg");
 }
 /*Реви*/
-[href*="characters/458-"] {
+[href*="characters/458-"],[src*="characters/458/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/hc0jVhn/1532894219146126419.png");
 }
 /*Фубуки Адская метель*/
-[href*="characters/81931-"] {
+[href*="characters/81931-"],[src*="characters/81931/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/NNFVkr0/i-18.jpg");
 }
 /*Шизуку Муросаки*/
-[href*="characters/z5833-"] {
+[href*="characters/z5833-"],[src*="characters/5833/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/5Wn0KXh/photoshop-i-Gfs-RVw-GTE.png");
 }
 /*Йорха 2b*/
-[href*="characters/153798-"] {
+[href*="characters/153798-"],[src*="characters/153798/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/59h6GcQ/sx-Lo-Uv-Llxw8.jpg");
 }
 /*Маки Дзэнин*/
-[href*="characters/164482-"] {
+[href*="characters/164482-"],[src*="characters/164482/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/StbGjtX/photoshop-itav-Rt-SUOY.png");
 }
 /*Гилейн Дедорудия*/
-[href*="characters/111741-"] {
+[href*="characters/111741-"],[src*="characters/111741/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/jH1JnD1/photoshop-HHWs-WRnhcd.png");
 }
 /*Руми Усагияма Мируко*/
-[href*="characters/162596-"] {
+[href*="characters/162596-"],[src*="characters/162596/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/sbY358N/3025558c1e82954cd2a1955e0c6cff7e.jpg");
 }
 /*Бруно Буччеллати*/
-[href*="characters/13045-"] {
+[href*="characters/13045-"],[src*="characters/13045/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/zhY5dYb/photoshop-7-RYcw-Xddg-S.png");
 }
 /*Жан Пьер Порнолев*/
-[href*="characters/4368-"] {
+[href*="characters/4368-"],[src*="characters/4368/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Z8ZNxJb/photoshop-6-ZOsp-FLQus.png");
 }
 /*Джозеф Джостар*/
-[href*="characters/6356-"] {
+[href*="characters/6356-"],[src*="characters/6356/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/MPzrJnX/Fu-FNPPBa-YAAST76.jpg");
 }
 /*Кишибе Рохан*/
-[href*="characters/12659-"] {
+[href*="characters/12659-"],[src*="characters/12659/"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/ZVf1y1P/V6cm-Nno-Gh-O.png");
 }
 /*Тоа Такути*/
-[href*="characters/16589-"] {
+[href*="characters/16589-"],[src*="characters/16589/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/CnBhMP7/photoshop-CPemk3u-SRr.png");
 }
 /*Ваташи(я)*/
-[href*="characters/30579-"] {
+[href*="characters/30579-"],[src*="characters/30579/"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Cv0tNqr/m1000x1000.jpg");
 }
 /*Роуз Целитель*/
-[href*="characters/191332-"]{
+[href*="characters/191332-"],[src*="characters/191332/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/6PBxSt3/photoshop-jh-WL9-Bc-G9g.png");
 }
 /*Мерелеона Вермиллион*/
-[href*="characters/151247-"]{
+[href*="characters/151247-"],[src*="characters/151247/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/1fCt7WQ/photoshop-9-Mg4-Lmc-Gxl.png");
 }
 /*Шигео Кагеяма*/
-[href*="characters/109929-"]{
+[href*="characters/109929-"],[src*="characters/109929/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/N6YdDp6/photoshop-pt2d-S4-SCJ1.png");
 }
 /*Хол Хорс*/
-[href*="characters/16557-"]{
+[href*="characters/16557-"],[src*="characters/16557/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/vwWVY2T/photoshop-PV0bwheu-Z6.png");
 }
 /*Ринго Родэгейн*/
-[href*="characters/23649-"]{
+[href*="characters/23649-"],[src*="characters/23649/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/SdcwgsL/photoshop-md-Frm-E86-Ow.png");
 }
 /*Джонни Джостар*/
-[href*="characters/19492-"]{
+[href*="characters/19492-"],[src*="characters/19492/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/d6nC6Z4/photoshop-Gnbvy-Psi-Mu.png");
 }
 /*Джайро Цеппели*/
-[href*="characters/11772-"]{
+[href*="characters/11772-"],[src*="characters/11772/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/NNLMC39/photoshop-jb-NZv8-Iy-Mz.png");
 }
 /*Бесправный ездок*/
-[href*="characters/81935-"]{
+[href*="characters/81935-"],[src*="characters/81935/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/KG147N5/photoshop-XQSgzv-DUW1.png");
   }
-
-/*Стиральная машина*/
-[href*="characters/157205-"]{
-    --show-default: 0;
-    --custom-image: url("https://i.ibb.co/zxHq890/3144a7a28389dd0500e0fb072a2f8b1c.jpg");
-  }
 /*Байонетта*/
-[href*="characters/92041-"]{
+[href*="characters/92041-"],[src*="characters/92041/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/8j5XdbK/photoshop-EHf-B04tf0-B.png");
   }
@@ -403,47 +420,86 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Y3h1RSC/RNX2uuywa-P.png");
 }
+/*Курапика*/
+[href*="characters/28-"],[src*="characters/28/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/bg52cSk/photoshop-Cxb-GFS8f-P2.png");
+}
+/*Чунь Ли*/
+[href*="characters/5165-"],[src*="characters/5165/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/CtkcfdK/photoshop-8cn1s7-W5-Iv.png");
+}
+/*Кэмми Уайт*/
+[href*="characters/9915-"],[src*="characters/9915/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/LrnRfg7/photoshop-WXqjcrsla-Z.png");
+}
+/*Ада Вонг*/
+[href*="characters/35551-"],[src*="characters/35551/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/r6S8BC3/ff4ce1c0707f4a7341c4fbc7f322505f.jpg");
+}
+/*Джилл Валентайн*/
+[href*="characters/12664-"],[src*="characters/12664/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/PzW5tJT/524258a62414a6303191d1c168f08c18.jpg");
+}
+/*Ясухо Хиросе*/
+[href*="characters/42779-"],[src*="characters/42779/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/djs5xH4/photoshop-3-ZQGAHsii-M.png");
+}
+/*Нами*/
+[href*="characters/723-"],[src*="characters/723/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/VwSxSB2/photoshop-wiauss1b-SN.png");
+}
+
+
+
+
 
 
 
 /*ЛЮДИ*/
 /*Eve*/
-[href*="people/49130-"]{
+[href*="people/49130-"],[src*="people/49130/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/6rwST1f/photoshop-Puw8-Ocunt0.png");
 }
 /*Юго Канно*/
-[href*="people/14287-"]{
+[href*="people/14287-"],[src*="people/14287/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/2q2NkYB/photoshop-Cwmbsahh3-U.png");
 }
 /*Amazarashi*/
-[href*="people/37627-"]{
+[href*="people/37627-"],[src*="people/37627/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/J5SZ5x0/photoshop-3twj2zh-Sr-G.png");
 }
 /*Sid*/
-[href*="people/7539-"]{
+[href*="people/7539-"],[src*="people/7539/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/TcvtjJp/photoshop-f-A5-ICnda-XT.png");
 }
 /*My First Story*/
-[href*="people/33981-"]{
+[href*="people/33981-"],[src*="people/33981/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/12WM0C3/photoshop-1p-YDAJsw-Ab.png");
 }
 /*UVERworld*/
-[href*="people/6608-"]{
+[href*="people/6608-"],[src*="people/6608/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/w63htyQ/photoshop-VVNK8-S6vgi.png");
 }
 /*ONE OK ROCK*/
-[href*="people/27629-"]{
+[href*="people/27629-"],[src*="people/27629/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/ZgrzWzN/photoshop-x-EMXW74c-T7.png");
 }
 /*Queen*/
-[href*="people/11090-"]{
+[href*="people/11090-"],[src*="people/11090/"]{
   --show-default: 0;
   --custom-image: url("https://i.ibb.co/D7trTvX/photoshop-YQ3psan-Ime.png");
 }
