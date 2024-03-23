@@ -1,5 +1,4 @@
 /*Замена обложек*/
-
 /*Для упрощения замены постеров в списках и подсказках*/
 .b-catalog_entry-tooltip>.entry-tooltip_container>a {
 	display: flex;
@@ -138,7 +137,21 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
 }
-
+/*Скалолаз*/
+[href*="mangas/7375-"],[src*="mangas/7375/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/xSZFWRs/photoshop-r6-Yuw4-Cl-BW.png");
+}
+/*Гомункул*/
+[href*="mangas/936-"],[src*="mangas/936/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/nRZDWFq/photoshop-i-JBITskg-YD.png");
+}
+/*Обещанный неверленд*/
+[href*="mangas/z100128-"],[src*="mangas/100128/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/JK59c3L/photoshop-Rl-Hr3k-UFdq.png");
+}
 
 
 
