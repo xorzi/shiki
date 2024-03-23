@@ -95,13 +95,16 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/8BSns6b/add526bfa6f25ac9adb6182ca48a07e1.jpg");
 }
+/*Аниме Обещанный неверленд*/
+[href*="animes/z37779-"],[src*="animes/37779-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/q1VH3rj/photoshop-XUg-Tb-RUe-GX.png");
+}
 /*Аниме первый шаг*/
-[href*="animes/263"] {
+[href*="animes/263-"],[src*="animes/263-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/dBYfjb7/a832283499485a53609e96e0aa20ec76.jpg");
 }
-
-
 
 
 /*МАНГА*/
@@ -140,6 +143,7 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
 }
+
 
 
 
@@ -382,11 +386,15 @@
     --custom-image: url("https://i.ibb.co/zxHq890/3144a7a28389dd0500e0fb072a2f8b1c.jpg");
   }
 /*Байонетта*/
-[href*="characters/92041"]{
+[href*="characters/92041-"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/8j5XdbK/photoshop-EHf-B04tf0-B.png");
   }
-
+/*Похоть*/
+[href*="characters/650-"],[src*="characters/650-"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/Y3h1RSC/RNX2uuywa-P.png");
+}
 
 
 
