@@ -133,7 +133,7 @@
     --custom-image: url("https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg");
 }
 /*Сквозь бальный зал*/
-[href*="mangas/48347"] {
+[href*="mangas/48347-"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
 }
