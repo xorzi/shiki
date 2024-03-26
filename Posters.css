@@ -32,12 +32,21 @@
 .c-poster img{
     content: var(--custom-image,none);
     object-fit: cover;
-	width: 100%;
-    min-height: 350px;
+    width: 100%;
+    min-height: 358px;
+    max-height: 358px;
     min-width: 229.66px;
 }
 .mfp-content img{
 	content: var(--custom-image,none);
+}
+.c-poster img:hover{
+    content: var(--custom-image,none);
+    object-fit: cover;
+    width: 100%;
+    min-height: 358px;
+    max-height:358px;
+    min-width: 229.66px;
 }
 
 /* Шаблон */
