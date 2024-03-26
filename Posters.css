@@ -119,7 +119,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/LrtQzvW/photoshop-GUHJGI5-YHN.png");
 }
-
+/*Аниме Город в котором меня нет */
+[href*="animes/z31043"],[src*="animes/31043/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/xh0zZMt/fa5d3afb4ca13198401203e5fb6c6476.jpg");
+}
 
 
 
