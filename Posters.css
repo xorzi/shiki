@@ -459,7 +459,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/VwSxSB2/photoshop-wiauss1b-SN.png");
 }
-
+/*Оливия Армстронг*/
+[href*="characters/3934-"],[src*="characters/3934/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/mB210Mr/photoshop-E9-Tz4-MTm-CI.png");
+}
 
 
 
