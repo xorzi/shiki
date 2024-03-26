@@ -49,7 +49,7 @@
 */
 
 /*АНИМЕ*/
-/* Тетрадь смерти */
+/* АнимеТетрадь смерти */
 /* V Этот постер глючный, поэтому прописывается дважды*/
 [href*="animes/1535-"],[src*="animes/1535/"]{
     --show-default: 0;
@@ -59,17 +59,17 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/12RZVS3/Death-Note.jpg");
 }
-/*Стальной алхимик Братство*/
+/*АнимеСтальной алхимик Братство*/
 [href*="animes/z5114-"],[src*="animes/5114/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/5L8QRmx/Fullmetal.jpg");
 } 
-/*Идеальная грусть*/
+/*Аниме Идеальная грусть*/
 [href*="animes/437-"],[src*="animes/437/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg");
 }
-/*Ван пис*/
+/*Аниме Ван пис*/
 [href*="animes/21-"],[src*="animes/21/"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/vhrKSqZ/photoshop-41-V6wveqj-O.png");
