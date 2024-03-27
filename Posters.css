@@ -473,6 +473,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/mB210Mr/photoshop-E9-Tz4-MTm-CI.png");
 }
+/*Фреми Спиддроу*/
+[href*="characters/88577-"],[src*="characters/88577/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/mTVmxk5/photoshop-Hg-I1-SMz-Gu2.png");
+}
 
 
 
