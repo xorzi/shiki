@@ -478,6 +478,16 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/mTVmxk5/photoshop-Hg-I1-SMz-Gu2.png");
 }
+/*Детка 5*/
+[href*="characters/75422-"],[src*="characters/75422/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/gZyhrhm/photoshop-zv-Suq-XUt-G3.png");
+}
+/*Перона*/
+[href*="characters/7467-"],[src*="characters/7467/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/CwFnCn6/2265819.jpg");
+}
 
 
 
