@@ -488,8 +488,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/CwFnCn6/2265819.jpg");
 }
-
-
+/*C.C.*/
+[href*="characters/1111"],[src*="characters/1111/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/gvRLqjt/i-WIEw-R3f2ow.jpg");
+}
 
 
 
