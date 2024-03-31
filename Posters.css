@@ -141,6 +141,11 @@
 
 
 /*МАНГА*/
+/*Монстр*/
+ [href*="mangas/1-"],[src*="mangas/1/"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/X30rpWQ/Monster.png");
+}
 /*20 век мальчишек*/
  [href*="mangas/3-"],[src*="mangas/3/"]{
     --show-default: 0;
