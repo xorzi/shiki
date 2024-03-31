@@ -493,7 +493,17 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/gvRLqjt/i-WIEw-R3f2ow.jpg");
 }
-
+/*Не вошедшие в избранное (постеры понравились)*/
+/*Санджи*/
+[href*="characters/305-"],[src*="characters/305/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/9wWT3Fw/photoshop-PEOTIg-Lq5-U.png");
+}
+/*Усопп*/
+[href*="characters/724-"],[src*="characters/724/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/kJXBCD0/photoshop-h-VGI22-T26c.png");
+}
 
 
 
