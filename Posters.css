@@ -509,7 +509,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/kJXBCD0/photoshop-h-VGI22-T26c.png");
 }
-
+/*Рюк*/
+[href*="characters/75-"],[src*="characters/75/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/5W1zg8c/i-65.jpg");
+}
 
 
 /*ЛЮДИ*/
