@@ -196,7 +196,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/JK59c3L/photoshop-Rl-Hr3k-UFdq.png");
 }
-
+/*Манга Акира*/
+ [href*="mangas/664-"],[src*="mangas/664/"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/Bq8t2kP/photoshop-RJiworx-CAx.png");
+}
 
 
 
