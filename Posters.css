@@ -518,6 +518,15 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/5W1zg8c/i-65.jpg");
 }
+/*Сайки Кусуо*/
+[href*="characters/90291-"],[src*="characters/90291/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/bFKFwCy/image.jpg");
+}
+
+
+
+
 
 
 /*ЛЮДИ*/
