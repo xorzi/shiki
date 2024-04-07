@@ -123,7 +123,11 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
   content:url("https://i.ibb.co/Jk7m13r/Bakuman.gif");
   filter:grayscale(1);
 }
-
+/*Ачивка Черный Клевер*/
+[src="/assets/achievements/anime/franchise/black_clover.jpg?v5"]{
+  content:url("https://i.ibb.co/C9J47m6/Black-Clover.gif");
+  filter:grayscale(1);
+}
 @media screen and (min-width: 1024px){
 #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
     filter: none;
