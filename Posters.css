@@ -498,14 +498,19 @@
     --custom-image: url("https://i.ibb.co/CwFnCn6/2265819.jpg");
 }
 /*C.C.*/
-[href*="characters/1111"],[src*="characters/1111/"] {
+[href*="characters/1111-"],[src*="characters/1111/"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/gvRLqjt/i-WIEw-R3f2ow.jpg");
 }
 /*Кимихиро Ватануки*/
-[href*="characters/235"],[src*="characters/235/"] {
+[href*="characters/235-"],[src*="characters/235/"] {
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/47tjzZr/Photoshop-mr7-Bq-Xbf-CM.png");
+}
+/*Киёко Симидзу*/
+[href*="characters/67689-"],[src*="characters/67689/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/ZXhPf7Y/Photoshop-ZO924ck-YPm.png");
 }
 /*Не вошедшие в избранное (постеры понравились)*/
 /*Санджи*/
