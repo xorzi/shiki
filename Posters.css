@@ -502,6 +502,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/gvRLqjt/i-WIEw-R3f2ow.jpg");
 }
+/*Кимихиро Ватануки*/
+[href*="characters/235"],[src*="characters/235/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/47tjzZr/Photoshop-mr7-Bq-Xbf-CM.png");
+}
 /*Не вошедшие в избранное (постеры понравились)*/
 /*Санджи*/
 [href*="characters/305-"],[src*="characters/305/"] {
