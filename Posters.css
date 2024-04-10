@@ -512,6 +512,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/DpJ30PP/Photoshop-b0-XDQ9br-UK.png");
 }
+/*Итачи Учиха*/
+[href*="characters/14-"],[src*="characters/14/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/YyKkmsG/i-Oe-Yjb9gd-C4.jpg");
+}
 /*Не вошедшие в избранное (постеры понравились)*/
 /*Санджи*/
 [href*="characters/305-"],[src*="characters/305/"] {
