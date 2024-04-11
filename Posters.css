@@ -538,6 +538,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/bFKFwCy/image.jpg");
 }
+/*Фрэнки*/
+[href*="characters/64-"],[src*="characters/64/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/pxmpgtd/photoshop-VF1-Rf0iap6.png");
+}
 
 
 
