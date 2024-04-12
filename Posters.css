@@ -517,7 +517,6 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/YyKkmsG/i-Oe-Yjb9gd-C4.jpg");
 }
-/*Не вошедшие в избранное (постеры понравились)*/
 /*Санджи*/
 [href*="characters/305-"],[src*="characters/305/"] {
     --show-default: 0;
@@ -543,7 +542,26 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/pxmpgtd/photoshop-VF1-Rf0iap6.png");
 }
-
+/*Сенси*/
+[href*="characters/134265-"],[src*="characters/134265/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/M8fPG8G/785f7fbab508b6338fe4aad2468c6a0480b0c2d0.jpg");
+}
+/*Марсиль донато*/
+[href*="characters/134263-"],[src*="characters/134263/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/SVqZrbz/2489869.jpg");
+}
+/*Чилчак Тимс */
+[href*="characters/134264-"],[src*="characters/134264/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/6RPXCJr/image.png");
+}
+/*Лай Торден*/
+[href*="characters/134262-"],[src*="characters/134262/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/DRdnh5H/2527132.jpg");
+}
 
 
 
