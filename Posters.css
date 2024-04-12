@@ -133,7 +133,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/xh0zZMt/fa5d3afb4ca13198401203e5fb6c6476.jpg");
 }
-
+/*Аниме Подземелье Вкусностей*/
+[href*="animes/52701-"],[src*="animes/52701/"] {
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/rHJ7H3z/0e0ac565666105fa6a72eb12d1a27ee9.jpg");
+}
 
 
 
