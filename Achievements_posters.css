@@ -96,6 +96,12 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
   --show-visi: 0;
   --imagge: url("https://i.ibb.co/vwKCkhs/image.gif"); 
 }
+/*Романтика уровень 1*/
+[href$='/romance']{
+  --show-visi: 0;
+  --imagge: url("https://i.ibb.co/B3gZPWM/april-lie.gif"); 
+}
+
 
 
 /*Ачивка пираты черной лагуны*/
