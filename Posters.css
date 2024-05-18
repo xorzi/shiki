@@ -276,6 +276,11 @@
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/kqPpwfh/CYgFEF.png");
 }
+/*Альфонс Элрик*/
+[href*="characters/12-"],[src*="characters/12/"]{
+    --show-default: 0;
+    --custom-image: url("https://i.ibb.co/7gg4BfK/Photoshop-BUKK50a-C5h.png");
+}
 /*Лелуш Ламперуж*/
 [href*="characters/417-"],[src*="characters/417/"]{
     --show-default: 0;
