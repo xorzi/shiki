@@ -307,7 +307,7 @@
     --custom-image: url("https://i.ibb.co/0mwYYT0/fa444f5bd3d4c0704b21f87857494cc1.jpg");
 }
 /*Алукард*/
-[href*="characters/601--"],[src*="characters/601/"]{
+[href*="characters/601-"],[src*="characters/601/"]{
     --show-default: 0;
     --custom-image: url("https://i.ibb.co/dj8JtJW/image.png");
 }
