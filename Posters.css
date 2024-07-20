@@ -584,41 +584,41 @@
 /*ЛЮДИ*/
 /*Eve*/
 [href*="people/49130-"],[src*="people/49130/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/6rwST1f/photoshop-Puw8-Ocunt0.png");
-}
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/eve.webp");
+  }
 /*Юго Канно*/
 [href*="people/14287-"],[src*="people/14287/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/2q2NkYB/photoshop-Cwmbsahh3-U.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/yugo_kanno.webp");
 }
 /*Amazarashi*/
 [href*="people/37627-"],[src*="people/37627/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/J5SZ5x0/photoshop-3twj2zh-Sr-G.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/amazarashi.webp");
 }
 /*Sid*/
 [href*="people/7539-"],[src*="people/7539/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/TcvtjJp/photoshop-f-A5-ICnda-XT.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/sid.webp");
 }
 /*My First Story*/
 [href*="people/33981-"],[src*="people/33981/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/12WM0C3/photoshop-1p-YDAJsw-Ab.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/my_first_story.webp");
 }
 /*UVERworld*/
 [href*="people/6608-"],[src*="people/6608/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/w63htyQ/photoshop-VVNK8-S6vgi.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/uverworld.webp");
 }
 /*ONE OK ROCK*/
 [href*="people/27629-"],[src*="people/27629/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/ZgrzWzN/photoshop-x-EMXW74c-T7.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/one_ok_rock.webp");
 }
 /*Queen*/
 [href*="people/11090-"],[src*="people/11090/"]{
-  --show-default: 0;
-  --custom-image: url("https://i.ibb.co/D7trTvX/photoshop-YQ3psan-Ime.png");
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/queen.webp");
 }
