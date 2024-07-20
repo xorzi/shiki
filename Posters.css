@@ -145,65 +145,66 @@
 
 /*МАНГА*/
 /*Монстр*/
- [href*="mangas/1-"],[src*="mangas/1/"]{
+[href*="mangas/1-"],[src*="mangas/1/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/X30rpWQ/Monster.png");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_monster.webp");
 }
 /*20 век мальчишек*/
  [href*="mangas/3-"],[src*="mangas/3/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/hY72FCz/20th.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_20th.webp");
 }
 /*ДжоДжо 7*/
 [href*="mangas/1706-"],[src*="mangas/1706/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/f44jKW8/Steel-Ball-Run.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_steel_ball_run.webp");
 }
 /*Бродяга*/
 [href*="mangas/656-"],[src*="mangas/656/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/gT4xjD5/Vagabond.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_vagabond.webp");
 }
 /*Берсерк*/
 [href*="mangas/2-"],[src*="mangas/2/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/f267XgT/Berserk.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_berserk.webp");
 }
 /*Винланд Сага*/
 [href*="mangas/642-"],[src*="mangas/642/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/XYk8WGV/Vinland-Saga.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_vinland_saga.webp");
 }
 /*Дорохедоро*/
 [href*="mangas/1133-"],[src*="mangas/1133/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_dorohedoro.webp");
 }
 /*Сквозь бальный зал*/
 [href*="mangas/48347-"],[src*="mangas/48347/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/Zgtmtnz/5b894eb7f8877a7a1190febd9d32c238.jpg");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_ballroom.webp");
 }
 /*Скалолаз*/
 [href*="mangas/7375-"],[src*="mangas/7375/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/xSZFWRs/photoshop-r6-Yuw4-Cl-BW.png");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_climber.webp");
 }
 /*Гомункул*/
 [href*="mangas/936-"],[src*="mangas/936/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/nRZDWFq/photoshop-i-JBITskg-YD.png");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_homunculus.webp");
 }
 /*Обещанный неверленд*/
 [href*="mangas/z100128-"],[src*="mangas/100128/"] {
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/JK59c3L/photoshop-Rl-Hr3k-UFdq.png");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_neverland.webp");
 }
 /*Манга Акира*/
  [href*="mangas/664-"],[src*="mangas/664/"]{
     --show-default: 0;
-    --custom-image: url("https://i.ibb.co/Bq8t2kP/photoshop-RJiworx-CAx.png");
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_akira.webp");
 }
+
 
 
 
