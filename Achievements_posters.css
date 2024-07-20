@@ -101,7 +101,11 @@ body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
   --show-visi: 0;
   --imagge: url("https://i.ibb.co/B3gZPWM/april-lie.gif"); 
 }
-
+/*Комедия уровень 1*/
+[href$='/comedy']{
+  --show-visi: 0;
+  --imagge: url("https://i.ibb.co/SQKv5cF/Ohys-Raws-Kono-Subarashii-Sekai-ni-Shukufuku-o-3-09-AT-X-1280x720.gif"); 
+}
 
 
 /*Ачивка пираты черной лагуны*/
