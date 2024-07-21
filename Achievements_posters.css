@@ -1,161 +1,160 @@
-
 /*Замена постеров у франшизы*/
 .b-db_entry > .c-image img {
-  box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
-  border-radius: 12px;
-}
-
-.b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
-  border-radius: 11px;
-}
-
-.user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
-  border-radius: 7px 0;
-}
-
-.tooltip-inner {
-  border: none;
-  color: inherit;
-  box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
-  border-radius: 12px;
-}
-
-#profiles_show .tooltip-inner {
-  width: 440x;
-}
-
-.b-achievement .c-image .inner a::after { 
-    position: absolute;
-    display: block;
-    content: '';
-    top: 0;
-    width: 100%;
-    height: 100%;
-    visibility: visible;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;    
-}
-
-body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
-  background: rgb(107 106 106 / 12%);
-}
-
-body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
-  color: #ffffff;
-}
-
-.b-achievement> .c-image .inner a::after { 
-	background-image: var(--imagge,none);
-	filter: grayscale(1) !important;
-  	
-}
-.b-achievement .c-image .inner a {
-	visibility: var(--show-visi,1);
-}
-.b-achievement > .c-image .inner a::after{
-  -webkit-filter: none;
-  border-radius: 11px;
-  width: 104%;
-  height: 106%;
-  max-width: 105%;
-  right: -5.5px;
-} 
-
-[data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/SwG1WZc/100.gif");
-}
-[data-hint="150 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/VBBdShd/image.gif");
-}
-[data-hint="200 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/vP69kW4/black-clover-anime.gif");
-}
-
-
-/*Фэнтэзи 1 уровень*/
-[href$='/fantasy']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/6BZCPPH/black-fox-peureuux.gif");
-}
-/*Безумие / Психологическое 1 уровень*/
-[href$='/dementia_psychological']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/7K9023p/tatami-galaxy.gif"); 
-}
-/*Драма 1 уровня*/    
-[href$='/drama']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/sbFZNYw/F.gif"); 
-}
-/*Хоррор / Триллер 1 уровня*/    
-[href$='/horror_thriller']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/vwKCkhs/image.gif"); 
-}
-/*Романтика уровень 1*/
-[href$='/romance']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/B3gZPWM/april-lie.gif"); 
-}
-/*Комедия уровень 1*/
-[href$='/comedy']{
-  --show-visi: 0;
-  --imagge: url("https://i.ibb.co/SQKv5cF/Ohys-Raws-Kono-Subarashii-Sekai-ni-Shukufuku-o-3-09-AT-X-1280x720.gif"); 
-}
-
-
-/*Ачивка пираты черной лагуны*/
-[src="/assets/achievements/anime/franchise/black_lagoon.jpg?v5"]{
-  content: url("https://i.ibb.co/TvksV2f/black-lagoon-roberta-1.gif");
-  filter:grayscale(1);
-}
-/*Ачивка Реинкарнация безработного*/ 
-[src="/assets/achievements/anime/franchise/mushoku_tensei.jpg?v5"]{
-  content: url("https://i.ibb.co/QfZc6VS/rudeus-greyrat-mushoku-tensei.gif");
-  filter:grayscale(1);
-}
-/*Ачивка ДжоДжо*/
-[src="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg?v5"]{
-  content: url("https://i.ibb.co/5x0PfjX/rfwrwre.gif");
-  filter:grayscale(1);
-}
-/*Ачивка Код Гиас*/
-[src="/assets/achievements/anime/franchise/code_geass.png?v5"]{
-  content:url("https://i.ibb.co/Fzfd7kN/Code.gif");
-  filter:grayscale(1);
-}
-/*Ачивка Бакуман*/
-[src="/assets/achievements/anime/franchise/bakuman.jpg?v5"]{
-  content:url("https://i.ibb.co/Jk7m13r/Bakuman.gif");
-  filter:grayscale(1);
-}
-/*Ачивка Черный Клевер*/
-[src="/assets/achievements/anime/franchise/black_clover.jpg?v5"]{
-  content:url("https://i.ibb.co/C9J47m6/Black-Clover.gif");
-  filter:grayscale(1);
-}
-/*Ачивка Токийский гуль*/
-[src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
-  content:url("https://i.ibb.co/3cy5sQx/Tokyo-Ghoul.gif");
-  filter:grayscale(1);
-}
-@media screen and (min-width: 1024px){
-#profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
-    filter: none;
-  }}
-
-@media screen and (min-width:1200px){
-	#profiles_show .cc-franchises .b-badge img {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    inset: 0;
-    transition: filter 0.8s ease-out;
-  }}
-	[src^="/assets/achievements/"]:hover{
-    filter:grayscale(0);
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
   }
+  
+  .b-catalog_entry-tooltip > a, .entry-tooltip_container > .image-link {
+    border-radius: 11px;
+  }
+  
+  .user_rates-minified .b-catalog_entry.planned .image-decor::before, .user_rates-minified .b-catalog_entry.watching .image-decor::before, .user_rates-minified .b-catalog_entry.completed .image-decor::before, .user_rates-minified .b-catalog_entry.rewatching .image-decor::before, .user_rates-minified .b-catalog_entry.on_hold .image-decor::before, .user_rates-minified .b-catalog_entry.dropped .image-decor::before {
+    border-radius: 7px 0;
+  }
+  
+  .tooltip-inner {
+    border: none;
+    color: inherit;
+    box-shadow: 0 2px 6px 2px rgb(0 0 0 / 30%);
+    border-radius: 12px;
+  }
+  
+  #profiles_show .tooltip-inner {
+    width: 440x;
+  }
+  
+  .b-achievement .c-image .inner a::after { 
+      position: absolute;
+      display: block;
+      content: '';
+      top: 0;
+      width: 100%;
+      height: 100%;
+      visibility: visible;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;    
+  }
+  
+  body.p-achievements.p-profiles .l-top_menu-v2 .global-search .search-results .search-mode.active {
+    background: rgb(107 106 106 / 12%);
+  }
+  
+  body.p-achievements.p-profiles .l-top_menu-v2 .menu-dropdown a {
+    color: #ffffff;
+  }
+  
+  .b-achievement> .c-image .inner a::after { 
+      background-image: var(--imagge,none);
+      filter: grayscale(1) !important;
+        
+  }
+  .b-achievement .c-image .inner a {
+      visibility: var(--show-visi,1);
+  }
+  .b-achievement > .c-image .inner a::after{
+    -webkit-filter: none;
+    border-radius: 11px;
+    width: 104%;
+    height: 106%;
+    max-width: 105%;
+    right: -5.5px;
+  } 
+  
+  [data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/100.gif");
+  }
+  [data-hint="150 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/150.gif");
+  }
+  [data-hint="200 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/200.gif");
+  }
+  
+  
+  /*Фэнтэзи 1 уровень*/
+  [href$='/fantasy']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/fantasy1_blackfox.gif");
+  }
+  /*Безумие / Психологическое 1 уровень*/
+  [href$='/dementia_psychological']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/dementia_psychological1_tatami_galaxy.gif"); 
+  }
+  /*Драма 1 уровня*/    
+  [href$='/drama']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/drama1_fma.gif"); 
+  }
+  /*Хоррор / Триллер 1 уровня*/    
+  [href$='/horror_thriller']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/horror_thriller1_hellsing.gif"); 
+  }
+  /*Романтика уровень 1*/
+  [href$='/romance']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/romance1_april_lie.gif"); 
+  }
+  /*Комедия уровень 1*/
+  [href$='/comedy']{
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/comedy1_konosuba.gif"); 
+  }
+  
+  
+  /*Ачивка пираты черной лагуны*/
+  [src="/assets/achievements/anime/franchise/black_lagoon.jpg?v5"]{
+    content: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_black_lagoon.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Реинкарнация безработного*/ 
+  [src="/assets/achievements/anime/franchise/mushoku_tensei.jpg?v5"]{
+    content: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_mushoku_tensei.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка ДжоДжо*/
+  [src="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg?v5"]{
+    content: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_jojo.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Код Гиас*/
+  [src="/assets/achievements/anime/franchise/code_geass.png?v5"]{
+    content:url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_code_geass.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Бакуман*/
+  [src="/assets/achievements/anime/franchise/bakuman.jpg?v5"]{
+    content:url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_bakuman.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Черный Клевер*/
+  [src="/assets/achievements/anime/franchise/black_clover.jpg?v5"]{
+    content:url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_black_clover.gif");
+    filter:grayscale(1);
+  }
+  /*Ачивка Токийский гуль*/
+  [src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
+    content:url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_tokyo_ghoul.gif");
+    filter:grayscale(1);
+  }
+  @media screen and (min-width: 1024px){
+  #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
+      filter: none;
+    }}
+  
+  @media screen and (min-width:1200px){
+      #profiles_show .cc-franchises .b-badge img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      inset: 0;
+      transition: filter 0.8s ease-out;
+    }}
+      [src^="/assets/achievements/"]:hover{
+      filter:grayscale(0);
+    }
