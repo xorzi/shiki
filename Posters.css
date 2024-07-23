@@ -576,7 +576,11 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134262.webp");
 }
-
+/*Ллойд Фронтера*/
+[href*="characters/213675"],[src*="characters/213675/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/213675.webp");
+}
 
 
 
