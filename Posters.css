@@ -138,8 +138,11 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_delicious_in_dungeon.webp");
 }
-
-
+/*Аниме Дорохедоро*/
+[href*="animes/38668-"],[src*="animes/38668/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_dorohedoro.webp");
+}
 
 
 
@@ -606,6 +609,12 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/138553.webp"); 
 }
+/*Ной*/
+[href*="characters/16059-"],[src*="characters/16059/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16059.webp"); 
+}
+
 
 
 
