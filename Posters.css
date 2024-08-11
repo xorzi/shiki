@@ -677,7 +677,7 @@
 /*Рукия Кучики*/
 [href*="characters/6-"],[src*="characters/6/"]{
     --show-default: 0;
-    --custom-image: url("https: //raw .githubusercontent .com/alansidd/shiki_theme/main/posters/chara/6.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/6.webp"); 
 }
 /*Кай*/
 [href*="characters/79437-"],[src*="characters/79437/"]{
