@@ -759,7 +759,11 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/187135.webp"); 
 }
-
+/*Ринетта Эльфельт*/
+[href*="characters/235204-"],[src*="characters/235204/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/235204.webp"); 
+}
 
 
 
