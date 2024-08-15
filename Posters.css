@@ -694,6 +694,73 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16060.webp"); 
 }
+/*Иллуми Золдик*/
+[href*="characters/57-"],[src*="characters/57/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/57.webp"); 
+}
+/*Уинри Рокбелл*/
+[href*="characters/63-"],[src*="characters/63/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/63.webp"); 
+}
+/*Селим Брэдли*/
+[href*="characters/10982-"],[src*="characters/10982/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/10982.webp"); 
+}
+/*Синдзи Хирако*/
+[href*="characters/10982-"],[src*="characters/10982/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/10982.webp"); 
+}
+/*Комуги*/
+[href*="characters/14313-"],[src*="characters/14313/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/14313.webp"); 
+}
+/*Брэд Бёрнс*/
+[href*="characters/63301-"],[src*="characters/63301/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/63301.webp"); 
+}
+/*Макима*/
+[href*="characters/170734-"],[src*="characters/170734/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/170734.webp"); 
+}
+/*Резе*/
+[href*="characters/174751-"],[src*="characters/174751/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/174751.webp"); 
+}
+/*Фрирен*/
+[href*="characters/184947-"],[src*="characters/184947/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/184947.webp"); 
+}
+/*Ферн*/
+[href*="characters/188176-"],[src*="characters/188176/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/188176.webp"); 
+}
+/*Рё Ямада*/
+[href*="characters/206278-"],[src*="characters/206278/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/206278.webp"); 
+}
+/*Черный костюм*/
+[href*="characters/247285-"],[src*="characters/247285/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/247285.webp"); 
+}
+/*Рэйко Кудзирай*/
+[href*="characters/187135-"],[src*="characters/187135/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/187135.webp"); 
+}
+
+
 
 
 
