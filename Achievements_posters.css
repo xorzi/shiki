@@ -61,15 +61,15 @@
     right: -5.5px;
   } 
   
-  [data-hint="100 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+  [data-hint*="100 "] .c-image .inner a[href$='/animelist']{  
     --show-visi: 0;
     --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/100.gif");
   }
-  [data-hint="150 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+  [data-hint*="150 "] .c-image .inner a[href$='/animelist']{  
     --show-visi: 0;
     --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/150.gif");
   }
-  [data-hint="200 просмотренных аниме"] > .c-image .inner a[href$='/animelist']{  
+  [data-hint*="200 "] .c-image .inner a[href$='/animelist'] {
     --show-visi: 0;
     --imagge: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/200.gif");
   }
