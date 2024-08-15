@@ -710,9 +710,9 @@
     --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/10982.webp"); 
 }
 /*Синдзи Хирако*/
-[href*="characters/10982-"],[src*="characters/10982/"]{
+[href*="characters/1084-"],[src*="characters/1084/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/10982.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/1084.webp"); 
 }
 /*Комуги*/
 [href*="characters/14313-"],[src*="characters/14313/"]{
