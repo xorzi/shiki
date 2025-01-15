@@ -143,7 +143,7 @@
     filter:grayscale(1);
   }
   /*Ачивка Доктор стоун*/
-  [src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
+  [src="/assets/achievements/anime/franchise/dr_stone.jpg?v5"]{
     content:url("https://github.com/alansidd/shiki_theme/blob/main/posters/achievements/franchise_dr_stone.gif");
     filter:grayscale(1);
   }
