@@ -142,6 +142,11 @@
     content:url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/achievements/franchise_tokyo_ghoul.gif");
     filter:grayscale(1);
   }
+  /*Ачивка Доктор стоун*/
+  [src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
+    content:url("https://github.com/alansidd/shiki_theme/blob/main/posters/achievements/franchise_dr_stone.gif");
+    filter:grayscale(1);
+  }
   @media screen and (min-width: 1024px){
   #profiles_show.p-profiles-show .achievements .cc-franchises .b-badge:hover {
       filter: none;
