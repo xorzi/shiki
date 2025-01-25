@@ -62,96 +62,96 @@
 /* V у этого аниме страница глючная, поэтому прописываем дважды*/
 [href*="animes/1535-"],[src*="animes/1535/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_death_note.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_death_note.webp");
 }
 [href*="animes/1535-"],[src*="animes/1535/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_death_note.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_death_note.webp");
 }
 /*АнимеСтальной алхимик Братство*/
 [href*="animes/z5114-"],[src*="animes/5114/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_fullmetal_alchemist.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_fullmetal_alchemist.webp");
 } 
 /*Аниме Идеальная грусть*/
 [href*="animes/437-"],[src*="animes/437/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_perfect_blue.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_perfect_blue.webp");
 }
 /*Аниме Ван пис*/
 [href*="animes/21-"],[src*="animes/21/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_one_piece.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_one_piece.webp");
 }
 /*Аниме Паразит*/
 [href*="animes/22535-"],[src*="animes/22535/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_parasyte.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_parasyte.webp");
 }
 /*Аниме Сага о винланде*/
 [href*="animes/37521-"],[src*="animes/37521/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_vinland_saga.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_vinland_saga.webp");
 }
 /*Аниме сквозь бальный зал*/
 [href*="animes/34636-"],[src*="animes/34636/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_ballroom.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_ballroom.webp");
 }
 /*Аниме Обещанный неверленд*/
 [href*="animes/z37779-"],[src*="animes/37779/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_neverland.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_neverland.webp");
 }
 /*Аниме первый шаг*/
 [href*="animes/263-"],[src*="animes/263/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_hajime_no_ippo.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_hajime_no_ippo.webp");
 }
 /*Аниме Рейтинг Короля*/
 [href*="animes/40834-"],[src*="animes/40834/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_ranking_of_kings.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_ranking_of_kings.webp");
 }
 /*Аниме 91 день*/
 [href*="animes/32998-"],[src*="animes/32998/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_91_days.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_91_days.webp");
 }
 /*Аниме Хантер х Хантер*/
 [href*="animes/z11061-"],[src*="animes/11061/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_hunter_x_hunter.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_hunter_x_hunter.webp");
 }
 /*Аниме ДжоДжо золотой ветер*/
 [href*="animes/37991-"],[src*="animes/37991/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_jojo5.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_jojo5.webp");
 }
 /*Аниме Город в котором меня нет */
 [href*="animes/z31043"],[src*="animes/31043/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_erased.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_erased.webp");
 }
 /*Аниме Подземелье Вкусностей*/
 [href*="animes/52701-"],[src*="animes/52701/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_delicious_in_dungeon.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_delicious_in_dungeon.webp");
 }
 /*Аниме Дорохедоро*/
 [href*="animes/38668-"],[src*="animes/38668/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_dorohedoro.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_dorohedoro.webp");
 }
 /*Аниме Иная*/
 [href*="animes/11111-"],[src*="animes/11111/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_another.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_another.webp");
 }
 /*Аниме Твоя апрельская ложь*/
 [href*="animes/z23273-"],[src*="animes/23273/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/anime/anime_your_april_lie.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_your_april_lie.webp");
 }
 
 
@@ -160,62 +160,62 @@
 /*Монстр*/
 [href*="mangas/1-"],[src*="mangas/1/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_monster.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_monster.webp");
 }
 /*20 век мальчишек*/
  [href*="mangas/3-"],[src*="mangas/3/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_20th.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_20th.webp");
 }
 /*ДжоДжо 7*/
 [href*="mangas/1706-"],[src*="mangas/1706/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_steel_ball_run.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_steel_ball_run.webp");
 }
 /*Бродяга*/
 [href*="mangas/656-"],[src*="mangas/656/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_vagabond.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_vagabond.webp");
 }
 /*Берсерк*/
 [href*="mangas/2-"],[src*="mangas/2/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_berserk.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_berserk.webp");
 }
 /*Винланд Сага*/
 [href*="mangas/642-"],[src*="mangas/642/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_vinland_saga.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_vinland_saga.webp");
 }
 /*Дорохедоро*/
 [href*="mangas/1133-"],[src*="mangas/1133/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_dorohedoro.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_dorohedoro.webp");
 }
 /*Сквозь бальный зал*/
 [href*="mangas/48347-"],[src*="mangas/48347/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_ballroom.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_ballroom.webp");
 }
 /*Скалолаз*/
 [href*="mangas/7375-"],[src*="mangas/7375/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_climber.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_climber.webp");
 }
 /*Гомункул*/
 [href*="mangas/936-"],[src*="mangas/936/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_homunculus.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_homunculus.webp");
 }
 /*Обещанный неверленд*/
 [href*="mangas/z100128-"],[src*="mangas/100128/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_neverland.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_neverland.webp");
 }
 /*Манга Акира*/
  [href*="mangas/664-"],[src*="mangas/664/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/manga/manga_akira.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_akira.webp");
 }
 
 
@@ -227,552 +227,552 @@
 /*Джолин Куджо*/
 [href*="characters/11222-"],[src*="characters/11222/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/11222.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11222.webp"); 
 }
 /*Диего Брандо*/
 [href*="characters/20148-"],[src*="characters/20148/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/20148.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/20148.webp");
 }
 /*Аскеладд*/
 [href*="characters/13020-"],[src*="characters/13020/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/13020.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13020.webp");
 }
 /*Трафальгар Ло*/
 [href*="characters/13767-"],[src*="characters/13767/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/13767.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13767.webp");
 }
 /*Камина*/
 [href*="characters/2075-"],[src*="characters/2075/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/2075.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/2075.webp");
 }
 /*Нико Робин*/
 [href*="characters/61-"],[src*="characters/61/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/61.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/61.webp");
 }
 /*Ророноа Зоро*/
 [href*="characters/62-"],[src*="characters/62/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/62.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/62.webp");
 }
 /*Монки Д Луффи*/
 [href*="characters/40-"],[src*="characters/40/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/40.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/40.webp");
 }
 /*Ягами Лайт*/
 [href*="characters/80-"],[src*="characters/80/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/80.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/80.webp");
 }
 /*Спайк Шпигель*/
 [href*="characters/1-"],[src*="characters/1/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/1.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1.webp");
 }
 /*Гатс*/
 [href*="characters/422-"],[src*="characters/422/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/422.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/422.webp");
 }
 /*Эл Лоулайт*/
 [href*="characters/71-"],[src*="characters/71/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/71.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/71.webp");
 }
 /*Эдвард Элрик Фасолина*/
 [href*="characters/11-"],[src*="characters/11/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/11.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11.webp");
 }
 /*Альфонс Элрик*/
 [href*="characters/12-"],[src*="characters/12/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/12.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12.webp");
 }
 /*Лелуш Ламперуж*/
 [href*="characters/417-"],[src*="characters/417/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/417.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/417.webp");
 }
 /*Эйкити Онидзука*/
 [href*="characters/434-"],[src*="characters/434/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/434.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/434.webp");
 }
 /*Сенку Ишигами*/
 [href*="characters/148984-"],[src*="characters/148984/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/148984.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/148984.webp");
 }
 /*Хисока Мороу*/
 [href*="characters/31-"],[src*="characters/31/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/31.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/31.webp");
 }
 /*Авилио Бруно*/
 [href*="characters/141202-"],[src*="characters/141202/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/141202.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/141202.webp");
 }
 /*Алукард*/
 [href*="characters/601-"],[src*="characters/601/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/601.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/601.webp");
 }
 /*Бон-тян (Бентам)*/
 [href*="characters/4875"],[src*="characters/4875/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/4875.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/4875.webp");
 }
 /*Кискэ*/
 [href*="characters/z210-"],[src*="characters/210/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/210.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/210.webp");
 }
 /*Леонардо Уотч*/
 [href*="characters/118607-"],[src*="characters/118607/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/118607.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/118607.webp");
 }
 /*Ёруити (Йоруичи) Сихоин*/
 [href*="characters/908-"],[src*="characters/908/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/908.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/908.webp");
 }
 /*Лиза Лиза*/
 [href*="characters/21960-"],[src*="characters/21960/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/21960.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/21960.webp");
 }
 /*Фэй Валентайн*/
 [href*="characters/2-"],[src*="characters/2/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/2.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/2.webp");
 }
 /*Реви*/
 [href*="characters/458-"],[src*="characters/458/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/458.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/458.webp");
 }
 /*Фубуки Адская метель*/
 [href*="characters/81931-"],[src*="characters/81931/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/81931.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/81931.webp");
 }
 /*Шизуку Муросаки*/
 [href*="characters/z5833-"],[src*="characters/5833/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/5833.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5833.webp");
 }
 /*Йорха 2b*/
 [href*="characters/153798-"],[src*="characters/153798/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/153798.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/153798.webp");
 }
 /*Маки Дзэнин*/
 [href*="characters/164482-"],[src*="characters/164482/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/164482.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/164482.webp");
 }
 /*Гилейн Дедорудия*/
 [href*="characters/111741-"],[src*="characters/111741/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/111741.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/111741.webp");
 }
 /*Руми Усагияма Мируко*/
 [href*="characters/162596-"],[src*="characters/162596/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/162596.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/162596.webp");
 }
 /*Бруно Буччеллати*/
 [href*="characters/13045-"],[src*="characters/13045/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/13045.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13045.webp");
 }
 /*Жан Пьер Порнолев*/
 [href*="characters/4368-"],[src*="characters/4368/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/4368.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/4368.webp");
 }
 /*Джозеф Джостар*/
 [href*="characters/6356-"],[src*="characters/6356/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/6356.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/6356.webp");
 }
 /*Кишибе Рохан*/
 [href*="characters/12659-"],[src*="characters/12659/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/12659.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12659.webp");
 }
 /*Тоа Такути*/
 [href*="characters/16589-"],[src*="characters/16589/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16589.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16589.webp");
 }
 /*Ваташи(я)*/
 [href*="characters/30579-"],[src*="characters/30579/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/30579.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/30579.webp");
 }
 /*Роуз Целитель*/
 [href*="characters/191332-"],[src*="characters/191332/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/191332.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/191332.webp");
 }
 /*Мерелеона Вермиллион*/
 [href*="characters/151247-"],[src*="characters/151247/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/151247.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/151247.webp");
 }
 /*Шигео Кагеяма*/
 [href*="characters/109929-"],[src*="characters/109929/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/109929.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/109929.webp");
 }
 /*Хол Хорс*/
 [href*="characters/16557-"],[src*="characters/16557/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16557.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16557.webp");
 }
 /*Ринго Родэгейн*/
 [href*="characters/23649-"],[src*="characters/23649/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/23649.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/23649.webp");
 }
 /*Джонни Джостар*/
 [href*="characters/19492-"],[src*="characters/19492/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19492.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19492.webp");
 }
 /*Джайро Цеппели*/
 [href*="characters/11772-"],[src*="characters/11772/"]{
   --show-default: 0;
-  --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/11772.webp");
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11772.webp");
 }
 /*Бесправный ездок*/
 [href*="characters/81935-"],[src*="characters/81935/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/81935.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/81935.webp");
   }
 /*Байонетта*/
 [href*="characters/92041-"],[src*="characters/92041/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/92041.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/92041.webp");
   }
 /*Похоть*/
 [href*="characters/650-"],[src*="characters/650/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/650.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/650.webp");
 }
 /*Курапика*/
 [href*="characters/28-"],[src*="characters/28/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/28.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/28.webp");
 }
 /*Чунь Ли*/
 [href*="characters/5165-"],[src*="characters/5165/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/5165.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5165.webp");
 }
 /*Кэмми Уайт*/
 [href*="characters/9915-"],[src*="characters/9915/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/9915.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/9915.webp");
 }
 /*Ада Вонг*/
 [href*="characters/35551-"],[src*="characters/35551/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/35551.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/35551.webp");
 }
 /*Джилл Валентайн*/
 [href*="characters/12664-"],[src*="characters/12664/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/12664.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12664.webp");
 }
 /*Ясухо Хиросе*/
 [href*="characters/42779-"],[src*="characters/42779/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/42779.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/42779.webp");
 }
 /*Нами*/
 [href*="characters/723-"],[src*="characters/723/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/723.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/723.webp");
 }
 /*Оливия Армстронг*/
 [href*="characters/3934-"],[src*="characters/3934/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/3934.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/3934.webp");
 }
 /*Фреми Спиддроу*/
 [href*="characters/88577-"],[src*="characters/88577/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/88577.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/88577.webp");
 }
 /*Детка 5*/
 [href*="characters/75422-"],[src*="characters/75422/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/75422.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/75422.webp");
 }
 /*Перона*/
 [href*="characters/7467-"],[src*="characters/7467/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/7467.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/7467.webp");
 }
 /*C.C.*/
 [href*="characters/1111-"],[src*="characters/1111/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/1111.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1111.webp");
 }
 /*Кимихиро Ватануки*/
 [href*="characters/235-"],[src*="characters/235/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/235.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/235.webp");
 }
 /*Киёко Симидзу*/
 [href*="characters/67689-"],[src*="characters/67689/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/67689.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/67689.webp");
 }
 /*Итачи Учиха*/
 [href*="characters/14-"],[src*="characters/14/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/14.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/14.webp");
 }
 /*Санджи*/
 [href*="characters/305-"],[src*="characters/305/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/305.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/305.webp");
 }
 /*Усопп*/
 [href*="characters/724-"],[src*="characters/724/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/724.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/724.webp");
 }
 /*Рюк*/
 [href*="characters/75-"],[src*="characters/75/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/75.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/75.webp");
 }
 /*Сайки Кусуо*/
 [href*="characters/90291-"],[src*="characters/90291/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/90291.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/90291.webp");
 }
 /*Фрэнки*/
 [href*="characters/64-"],[src*="characters/64/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/64.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/64.webp");
 }
 /*Сенси*/
 [href*="characters/134265-"],[src*="characters/134265/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134265.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134265.webp");
 }
 /*Марсиль донато*/
 [href*="characters/134263-"],[src*="characters/134263/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134263.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134263.webp");
 }
 /*Чилчак Тимс */
 [href*="characters/134264-"],[src*="characters/134264/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134264.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134264.webp");
 }
 /*Лай Торден*/
 [href*="characters/134262-"],[src*="characters/134262/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134262.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134262.webp");
 }
 /*Ллойд Фронтера*/
 [href*="characters/213675"],[src*="characters/213675/"] {
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/213675.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/213675.webp");
 }
 /*Брук*/
 [href*="characters/5627-"],[src*="characters/5627/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/5627.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5627.webp"); 
 }
 /*Хилилюк*/
 [href*="characters/19271-"],[src*="characters/19271/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19271.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19271.webp"); 
 }
 /*Изутсуми*/
 [href*="characters/177766-"],[src*="characters/177766/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/177766.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/177766.webp"); 
 }
 /*Ынхёк Ли*/
 [href*="characters/180814-"],[src*="characters/180814/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/180814.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/180814.webp"); 
 }
 /*Саичи Сугимото*/
 [href*="characters/138553-"],[src*="characters/138553/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/138553.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/138553.webp"); 
 }
 /*Ной*/
 [href*="characters/16059-"],[src*="characters/16059/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16059.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16059.webp"); 
 }
 /*Рыцарь череп*/
 [href*="characters/7881-"],[src*="characters/7881/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/7881.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/7881.webp"); 
 }
 /*Фалин Торден*/
 [href*="characters/134266-"],[src*="characters/134266/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/134266.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134266.webp"); 
 }
 /*Син*/
 [href*="characters/16058-"],[src*="characters/16058/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16058.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16058.webp"); 
 }
 /*Касукабэ*/
 [href*="characters/40926-"],[src*="characters/40926/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/40926.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/40926.webp"); 
 }
 /*Рису*/
 [href*="characters/31212-"],[src*="characters/31212/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/31212.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/31212.webp"); 
 }
 /*Адзуса Накано*/
 [href*="characters/21173-"],[src*="characters/21173/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/21173.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/21173.webp"); 
 }
 /*Мио Акияма*/
 [href*="characters/19566-"],[src*="characters/19566/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19566.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19566.webp"); 
 }
 /*Рицу Тайнака*/
 [href*="characters/19567-"],[src*="characters/19567/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19567.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19567.webp"); 
 }
 /*Цумуги Котобуки*/
 [href*="characters/19568-"],[src*="characters/19568/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19568.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19568.webp"); 
 }
 /*Юи Хирасава*/
 [href*="characters/19565-"],[src*="characters/19565/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/19565.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19565.webp"); 
 }
 /*Рукия Кучики*/
 [href*="characters/6-"],[src*="characters/6/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/6.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/6.webp"); 
 }
 /*Кай*/
 [href*="characters/79437-"],[src*="characters/79437/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/79437.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/79437.webp"); 
 }
 /*Томоко Куроки*/
 [href*="characters/50057-"],[src*="characters/50057/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/50057.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/50057.webp"); 
 }
 /*Эн*/
 [href*="characters/16060-"],[src*="characters/16060/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/16060.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16060.webp"); 
 }
 /*Иллуми Золдик*/
 [href*="characters/57-"],[src*="characters/57/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/57.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/57.webp"); 
 }
 /*Уинри Рокбелл*/
 [href*="characters/63-"],[src*="characters/63/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/63.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/63.webp"); 
 }
 /*Селим Брэдли*/
 [href*="characters/10982-"],[src*="characters/10982/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/10982.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/10982.webp"); 
 }
 /*Синдзи Хирако*/
 [href*="characters/1084-"],[src*="characters/1084/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/1084.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1084.webp"); 
 }
 /*Комуги*/
 [href*="characters/14313-"],[src*="characters/14313/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/14313.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/14313.webp"); 
 }
 /*Брэд Бёрнс*/
 [href*="characters/63301-"],[src*="characters/63301/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/63301.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/63301.webp"); 
 }
 /*Макима*/
 [href*="characters/170734-"],[src*="characters/170734/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/170734.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/170734.webp"); 
 }
 /*Резе*/
 [href*="characters/174751-"],[src*="characters/174751/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/174751.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/174751.webp"); 
 }
 /*Фрирен*/
 [href*="characters/184947-"],[src*="characters/184947/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/184947.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/184947.webp"); 
 }
 /*Ферн*/
 [href*="characters/188176-"],[src*="characters/188176/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/188176.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/188176.webp"); 
 }
 /*Рё Ямада*/
 [href*="characters/206278-"],[src*="characters/206278/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/206278.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/206278.webp"); 
 }
 /*Черный костюм*/
 [href*="characters/247285-"],[src*="characters/247285/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/247285.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/247285.webp"); 
 }
 /*Рэйко Кудзирай*/
 [href*="characters/187135-"],[src*="characters/187135/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/187135.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/187135.webp"); 
 }
 /*Ринетта Эльфельт*/
 [href*="characters/235204-"],[src*="characters/235204/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/235204.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/235204.webp"); 
 }
 /*Хрона*/
 [href*="characters/11919-"],[src*="characters/11919/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/11919.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11919.webp"); 
 }
 /*Субару Хосина*/
 [href*="characters/210349-"],[src*="characters/210349/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/chara/210349.webp"); 
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/210349.webp"); 
 }
 
 
@@ -783,40 +783,40 @@
 /*Eve*/
 [href*="people/49130-"],[src*="people/49130/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/eve.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/eve.webp");
   }
 /*Юго Канно*/
 [href*="people/14287-"],[src*="people/14287/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/yugo_kanno.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/yugo_kanno.webp");
 }
 /*Amazarashi*/
 [href*="people/37627-"],[src*="people/37627/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/amazarashi.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/amazarashi.webp");
 }
 /*Sid*/
 [href*="people/7539-"],[src*="people/7539/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/sid.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/sid.webp");
 }
 /*My First Story*/
 [href*="people/33981-"],[src*="people/33981/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/my_first_story.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/my_first_story.webp");
 }
 /*UVERworld*/
 [href*="people/6608-"],[src*="people/6608/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/uverworld.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/uverworld.webp");
 }
 /*ONE OK ROCK*/
 [href*="people/27629-"],[src*="people/27629/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/one_ok_rock.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/one_ok_rock.webp");
 }
 /*Queen*/
 [href*="people/11090-"],[src*="people/11090/"]{
     --show-default: 0;
-    --custom-image: url("https://raw.githubusercontent.com/alansidd/shiki_theme/main/posters/people/queen.webp");
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/queen.webp");
 }
