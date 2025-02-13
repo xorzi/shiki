@@ -63,88 +63,88 @@
   
   [data-hint*="100 "] .c-image .inner a[href$='/animelist']{  
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/100.gif");
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/100.gif");
   }
   [data-hint*="150 "] .c-image .inner a[href$='/animelist']{  
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/150.gif");
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/150.gif");
   }
   [data-hint*="200 "] .c-image .inner a[href$='/animelist'] {
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/200.gif");
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/200.gif");
   }
   
   
   /*Фэнтэзи 1 уровень*/
   [href$='/fantasy']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/fantasy1_blackfox.gif");
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/fantasy1_blackfox.gif");
   }
   /*Безумие / Психологическое 1 уровень*/
   [href$='/dementia_psychological']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/dementia_psychological1_tatami_galaxy.gif"); 
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/dementia_psychological1_tatami_galaxy.gif"); 
   }
   /*Драма 1 уровня*/    
   [href$='/drama']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/drama1_fma.gif"); 
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/drama1_fma.gif"); 
   }
   /*Хоррор / Триллер 1 уровня*/    
   [href$='/horror_thriller']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/horror_thriller1_hellsing.gif"); 
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/horror_thriller1_hellsing.gif"); 
   }
   /*Романтика уровень 1*/
   [href$='/romance']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/romance1_april_lie.gif"); 
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/romance1_april_lie.gif"); 
   }
   /*Комедия уровень 1*/
   [href$='/comedy']{
     --show-visi: 0;
-    --imagge: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/comedy1_konosuba.gif"); 
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/comedy1_konosuba.gif"); 
   }
   
   
   /*Ачивка пираты черной лагуны*/
   [src="/assets/achievements/anime/franchise/black_lagoon.jpg?v5"]{
-    content: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_black_lagoon.gif");
+    content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_black_lagoon.gif");
     filter:grayscale(1);
   }
   /*Ачивка Реинкарнация безработного*/ 
   [src="/assets/achievements/anime/franchise/mushoku_tensei.jpg?v5"]{
-    content: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_mushoku_tensei.gif");
+    content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_mushoku_tensei.gif");
     filter:grayscale(1);
   }
   /*Ачивка ДжоДжо*/
   [src="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg?v5"]{
-    content: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_jojo.gif");
+    content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_jojo.gif");
     filter:grayscale(1);
   }
   /*Ачивка Код Гиас*/
   [src="/assets/achievements/anime/franchise/code_geass.png?v5"]{
-    content:url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_code_geass.gif");
+    content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_code_geass.gif");
     filter:grayscale(1);
   }
   /*Ачивка Бакуман*/
   [src="/assets/achievements/anime/franchise/bakuman.jpg?v5"]{
-    content:url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_bakuman.gif");
+    content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_bakuman.gif");
     filter:grayscale(1);
   }
   /*Ачивка Черный Клевер*/
   [src="/assets/achievements/anime/franchise/black_clover.jpg?v5"]{
-    content:url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_black_clover.gif");
+    content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_black_clover.gif");
     filter:grayscale(1);
   }
   /*Ачивка Токийский гуль*/
   [src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
-    content:url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_tokyo_ghoul.gif");
+    content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_tokyo_ghoul.gif");
     filter:grayscale(1);
   }
   /*Ачивка Доктор стоун*/
   [src="/assets/achievements/anime/franchise/dr_stone.jpg?v5"]{
-    content:url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/achievements/franchise_dr_stone.gif");
+    content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_dr_stone.gif");
     filter:grayscale(1);
   }
   @media screen and (min-width: 1024px){
