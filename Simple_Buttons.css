@@ -1,0 +1,38 @@
+/*Кнопки*/
+.u-tabs [data-tab-switch] {
+    height: 100%;
+    background-color: #373A41 ;
+    color: #ffffff;
+    font-style: normal;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    text-transform:0;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transform: skew(-21deg);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    margin: 5px;
+    padding: 0 40px;
+    cursor: pointer;
+    padding: .50em .65em;
+    font-weight: bold;
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .u-tabs [data-tab-switch]:hover {
+  
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    background: #8080C0;
+    color: #FFF;
+    background-color: #8080C0;
+  }
+  
+  .u-tabs [data-tab] {
+    flex-basis: 100%;
+    width: 100%;
+  }

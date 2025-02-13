@@ -1,479 +1,822 @@
-    /*Тетрадь смерти*/
-    .b-catalog_entry > a[href *= 'animes/z1535-'] img,
-    .entry-tooltip_container > .image-link[href *= 'animes/z1535-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'animes/z1535-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'animes/z1535-'] {
-      background-image: url(https://i.ibb.co/D1bvsy6/Death-Note.jpg);
-    }
-    
-    /*Идеальная грусть*/
-    .b-catalog_entry > a[href *= 'animes/437-'] img,
-    .entry-tooltip_container > .image-link[href *= 'animes/437-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'animes/437-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'animes/437-'] {
-      background-image: url(https://i.ibb.co/qFbHDxR/Perfect-Blue.jpg);
-    }
-    
-    /*Аниме Паразит*/
-    .b-catalog_entry > a[href *= 'animes/22535-'] img,
-    .entry-tooltip_container > .image-link[href *= 'animes/22535-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'animes/22535-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'animes/22535-'] {
-      background-image: url(https://i.ibb.co/hs0qYts/Parasyte.jpg);
-    }
-    
-    /*Аниме Сага о винланде*/
-    .b-catalog_entry > a[href *= 'animes/37521-'] img,
-    .entry-tooltip_container > .image-link[href *= 'animes/37521-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'animes/37521-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'animes/37521-'] {
-      background-image: url(https://i.ibb.co/hcY6wyd/Vinland-saga.jpg);
-    }
-    
-    /*ДжоДжо 7*/
-    .b-catalog_entry > a[href *= 'mangas/1706-'] img,
-    .entry-tooltip_container > .image-link[href *= 'mangas/1706-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'mangas/1706-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'mangas/1706-'] {
-      background-image: url(https://i.ibb.co/f44jKW8/Steel-Ball-Run.jpg);
-    }
-    
-    /*Бродяга*/
-    .b-catalog_entry > a[href *= 'mangas/656-'] img,
-    .entry-tooltip_container > .image-link[href *= 'mangas/656-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'mangas/656-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'mangas/656-'] {
-      background-image: url(https://i.ibb.co/gT4xjD5/Vagabond.jpg);
-    }
-    
-    /*Берсерк*/
-    .b-catalog_entry > a[href *= 'mangas/2-'] img,
-    .entry-tooltip_container > .image-link[href *= 'mangas/2-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'mangas/2-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'mangas/2-'] {
-      background-image: url(https://i.ibb.co/f267XgT/Berserk.jpg);
-    }
-    
-    /*Винланд Сага*/
-    .b-catalog_entry > a[href *= 'mangas/642-'] img,
-    .entry-tooltip_container > .image-link[href *= 'mangas/642-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'mangas/642-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'mangas/642-'] {
-      background-image: url(https://i.ibb.co/XYk8WGV/Vinland-Saga.jpg);
-    }
-    /*Дорохедоро*/
-    .b-catalog_entry > a[href *= 'mangas/1133-'] img,
-    .entry-tooltip_container > .image-link[href *= 'mangas/1133-'] img {
-      opacity: 0;
-    }
-    .b-catalog_entry a[href *= 'mangas/1133-'] .image-cutter,
-    .entry-tooltip_container > .image-link[href *= 'mangas/1133-'] {
-      background-image: url(https://i.ibb.co/WKXQHyJ/Dorohedoro.jpg);
-    }
-    
-
-
-
-
-
-
-
-/* Общие настройки / удаление текущих обложек */
-
-
-/* Общие настройки обложек */
-.b-catalog_entry .cover .image-cutter,
-.b-catalog_entry-tooltip > a,
-.entry-tooltip_container > .image-link {
-  background-size: cover;
-  background-position: top center;
+/*Замена обложек*/
+/*Для упрощения замены постеров в списках и подсказках*/
+.b-catalog_entry-tooltip>.entry-tooltip_container>a {
+	display: flex;
+	align-self: flex-start;
+	position: relative;
+	max-width: 160px;
+}
+.b-catalog_entry-tooltip>.entry-tooltip_container>a::before {
+	content: '';
+	display: block;
+	width: 160px;
+	padding-bottom: 155.5556%;
+	background: var(--custom-image,none) var(--custom-settings,center top/cover);
+}
+.b-catalog_entry-tooltip>.entry-tooltip_container>a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: var(--show-default,1);
+}
+.b-catalog_entry>.cover img {
+	opacity: var(--show-default,1);
+}
+.b-catalog_entry>.cover .image-cutter {
+	background: var(--custom-image,none) var(--custom-settings,center top/cover);
+}
+.is-spoilers .b-catalog_entry>.cover .image-cutter {
+	--show-default: 1;
+	--custom-image: none;
+}
+.c-poster img{
+    content: var(--custom-image,none);
+    object-fit: cover;
+    width: 100%;
+    min-height: 358px;
+    max-height: 358px;
+    min-width: 229.66px;
+}
+.mfp-content img{
+	content: var(--custom-image,none);
+}
+.c-poster img:hover{
+    content: var(--custom-image,none);
+    object-fit: cover;
+    width: 100%;
+    min-height: 358px;
+    max-height:358px;
+    min-width: 229.66px;
 }
 
-/* Изменение контейнера во всплывающей подсказке */
-.b-catalog_entry-tooltip > a,
-.entry-tooltip_container > .image-link {
-  float: left;
-  width: 160px;
-  height: 249.34px;
+/* Шаблон */
+/*
+[href*="characters/-"],[src*="characters//"] {
+    --show-default: 0;
+    --custom-image: url("");
+}
+*/
+
+/*АНИМЕ*/
+/* АнимеТетрадь смерти */
+/* V у этого аниме страница глючная, поэтому прописываем дважды*/
+[href*="animes/1535-"],[src*="animes/1535/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_death_note.webp");
+}
+[href*="animes/1535-"],[src*="animes/1535/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_death_note.webp");
+}
+/*АнимеСтальной алхимик Братство*/
+[href*="animes/z5114-"],[src*="animes/5114/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_fullmetal_alchemist.webp");
+} 
+/*Аниме Идеальная грусть*/
+[href*="animes/437-"],[src*="animes/437/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_perfect_blue.webp");
+}
+/*Аниме Ван пис*/
+[href*="animes/21-"],[src*="animes/21/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_one_piece.webp");
+}
+/*Аниме Паразит*/
+[href*="animes/22535-"],[src*="animes/22535/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_parasyte.webp");
+}
+/*Аниме Сага о винланде*/
+[href*="animes/37521-"],[src*="animes/37521/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_vinland_saga.webp");
+}
+/*Аниме сквозь бальный зал*/
+[href*="animes/34636-"],[src*="animes/34636/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_ballroom.webp");
+}
+/*Аниме Обещанный неверленд*/
+[href*="animes/z37779-"],[src*="animes/37779/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_neverland.webp");
+}
+/*Аниме первый шаг*/
+[href*="animes/263-"],[src*="animes/263/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_hajime_no_ippo.webp");
+}
+/*Аниме Рейтинг Короля*/
+[href*="animes/40834-"],[src*="animes/40834/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_ranking_of_kings.webp");
+}
+/*Аниме 91 день*/
+[href*="animes/32998-"],[src*="animes/32998/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_91_days.webp");
+}
+/*Аниме Хантер х Хантер*/
+[href*="animes/z11061-"],[src*="animes/11061/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_hunter_x_hunter.webp");
+}
+/*Аниме ДжоДжо золотой ветер*/
+[href*="animes/37991-"],[src*="animes/37991/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_jojo5.webp");
+}
+/*Аниме Город в котором меня нет */
+[href*="animes/z31043"],[src*="animes/31043/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_erased.webp");
+}
+/*Аниме Подземелье Вкусностей*/
+[href*="animes/52701-"],[src*="animes/52701/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_delicious_in_dungeon.webp");
+}
+/*Аниме Дорохедоро*/
+[href*="animes/38668-"],[src*="animes/38668/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_dorohedoro.webp");
+}
+/*Аниме Иная*/
+[href*="animes/11111-"],[src*="animes/11111/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_another.webp");
+}
+/*Аниме Твоя апрельская ложь*/
+[href*="animes/z23273-"],[src*="animes/23273/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/anime/anime_your_april_lie.webp");
 }
 
 
-/*  Шаблон */
 
-/* Имя */
-.b-catalog_entry a[href *= 'characters/-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/-'] {
-  background-image: url();
+/*МАНГА*/
+/*Монстр*/
+[href*="mangas/1-"],[src*="mangas/1/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_monster.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
-    opacity: 0;
+/*20 век мальчишек*/
+ [href*="mangas/3-"],[src*="mangas/3/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_20th.webp");
+}
+/*ДжоДжо 7*/
+[href*="mangas/1706-"],[src*="mangas/1706/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_steel_ball_run.webp");
+}
+/*Бродяга*/
+[href*="mangas/656-"],[src*="mangas/656/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_vagabond.webp");
+}
+/*Берсерк*/
+[href*="mangas/2-"],[src*="mangas/2/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_berserk.webp");
+}
+/*Винланд Сага*/
+[href*="mangas/642-"],[src*="mangas/642/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_vinland_saga.webp");
+}
+/*Дорохедоро*/
+[href*="mangas/1133-"],[src*="mangas/1133/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_dorohedoro.webp");
+}
+/*Сквозь бальный зал*/
+[href*="mangas/48347-"],[src*="mangas/48347/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_ballroom.webp");
+}
+/*Скалолаз*/
+[href*="mangas/7375-"],[src*="mangas/7375/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_climber.webp");
+}
+/*Гомункул*/
+[href*="mangas/936-"],[src*="mangas/936/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_homunculus.webp");
+}
+/*Обещанный неверленд*/
+[href*="mangas/z100128-"],[src*="mangas/100128/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_neverland.webp");
+}
+/*Манга Акира*/
+ [href*="mangas/664-"],[src*="mangas/664/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/manga/manga_akira.webp");
 }
 
-/* Диего */
-.b-catalog_entry a[href *= 'characters/20148-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/20148-'] {
-  background-image: url(https://i.ibb.co/XZCVRZt/Diego.jpg);
-}
-[class *= 'b-catalog_entry'] > a[href *= 'characters/20148-'] img {
-  opacity: 0;
-}
 
-/* Аскеладд */
-.b-catalog_entry a[href *= 'characters/13020-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/13020-'] {
-  background-image: url(https://i.ibb.co/R3D6w2b/image.jpg);
-}
-[class *= 'b-catalog_entry'] > a[href *= 'characters/13020-'] img {
-    opacity: 0;
-}
 
+
+
+
+/*ПЕРСОНАЖИ*/
+/*Джолин Куджо*/
+[href*="characters/11222-"],[src*="characters/11222/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11222.webp"); 
+}
+/*Диего Брандо*/
+[href*="characters/20148-"],[src*="characters/20148/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/20148.webp");
+}
+/*Аскеладд*/
+[href*="characters/13020-"],[src*="characters/13020/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13020.webp");
+}
 /*Трафальгар Ло*/
-.b-catalog_entry a[href *= 'characters/13767-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/13767-'] {
-  background-image: url(https://i.ibb.co/CM3jRbL/8d0c633e14d7fa9c63d7c6f70acb1ec2.jpg);
+[href*="characters/13767-"],[src*="characters/13767/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13767.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/13767-'] img {
-    opacity: 0;
-}
-
 /*Камина*/
-.b-catalog_entry a[href *= 'characters/2075-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/2075-'] {
-  background-image: url(https://i.ibb.co/TwQyP67/Kamina.jpg);
+[href*="characters/2075-"],[src*="characters/2075/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/2075.webp");
 }
-
-/*Чоппер*/
-
-.b-catalog_entry a[href *= 'characters/309-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/309-'] {
-  background-image: url(https://i.ibb.co/gt0TNZx/1.jpg);
+/*Нико Робин*/
+[href*="characters/61-"],[src*="characters/61/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/61.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/309-'] img {
-    opacity: 0;
+/*Ророноа Зоро*/
+[href*="characters/62-"],[src*="characters/62/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/62.webp");
 }
-
-/*Брук*/
-.b-catalog_entry a[href *= 'characters/5627-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/5627-'] {
-  background-image: url(https://i.ibb.co/gVVsQM0/2.jpg);
+/*Монки Д Луффи*/
+[href*="characters/40-"],[src*="characters/40/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/40.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/5627-'] img {
-    opacity: 0;
+/*Ягами Лайт*/
+[href*="characters/80-"],[src*="characters/80/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/80.webp");
 }
-
+/*Спайк Шпигель*/
+[href*="characters/1-"],[src*="characters/1/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1.webp");
+}
+/*Гатс*/
+[href*="characters/422-"],[src*="characters/422/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/422.webp");
+}
+/*Эл Лоулайт*/
+[href*="characters/71-"],[src*="characters/71/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/71.webp");
+}
+/*Эдвард Элрик Фасолина*/
+[href*="characters/11-"],[src*="characters/11/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11.webp");
+}
+/*Альфонс Элрик*/
+[href*="characters/12-"],[src*="characters/12/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12.webp");
+}
+/*Лелуш Ламперуж*/
+[href*="characters/417-"],[src*="characters/417/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/417.webp");
+}
+/*Эйкити Онидзука*/
+[href*="characters/434-"],[src*="characters/434/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/434.webp");
+}
+/*Сенку Ишигами*/
+[href*="characters/148984-"],[src*="characters/148984/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/148984.webp");
+}
+/*Хисока Мороу*/
+[href*="characters/31-"],[src*="characters/31/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/31.webp");
+}
+/*Авилио Бруно*/
+[href*="characters/141202-"],[src*="characters/141202/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/141202.webp");
+}
+/*Алукард*/
+[href*="characters/601-"],[src*="characters/601/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/601.webp");
+}
+/*Бон-тян (Бентам)*/
+[href*="characters/4875"],[src*="characters/4875/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/4875.webp");
+}
+/*Кискэ*/
+[href*="characters/z210-"],[src*="characters/210/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/210.webp");
+}
+/*Леонардо Уотч*/
+[href*="characters/118607-"],[src*="characters/118607/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/118607.webp");
+}
+/*Ёруити (Йоруичи) Сихоин*/
+[href*="characters/908-"],[src*="characters/908/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/908.webp");
+}
+/*Лиза Лиза*/
+[href*="characters/21960-"],[src*="characters/21960/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/21960.webp");
+}
+/*Фэй Валентайн*/
+[href*="characters/2-"],[src*="characters/2/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/2.webp");
+}
+/*Реви*/
+[href*="characters/458-"],[src*="characters/458/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/458.webp");
+}
+/*Фубуки Адская метель*/
+[href*="characters/81931-"],[src*="characters/81931/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/81931.webp");
+}
+/*Шизуку Муросаки*/
+[href*="characters/z5833-"],[src*="characters/5833/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5833.webp");
+}
+/*Йорха 2b*/
+[href*="characters/153798-"],[src*="characters/153798/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/153798.webp");
+}
+/*Маки Дзэнин*/
+[href*="characters/164482-"],[src*="characters/164482/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/164482.webp");
+}
+/*Гилейн Дедорудия*/
+[href*="characters/111741-"],[src*="characters/111741/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/111741.webp");
+}
+/*Руми Усагияма Мируко*/
+[href*="characters/162596-"],[src*="characters/162596/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/162596.webp");
+}
+/*Бруно Буччеллати*/
+[href*="characters/13045-"],[src*="characters/13045/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/13045.webp");
+}
+/*Жан Пьер Порнолев*/
+[href*="characters/4368-"],[src*="characters/4368/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/4368.webp");
+}
+/*Джозеф Джостар*/
+[href*="characters/6356-"],[src*="characters/6356/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/6356.webp");
+}
+/*Кишибе Рохан*/
+[href*="characters/12659-"],[src*="characters/12659/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12659.webp");
+}
+/*Тоа Такути*/
+[href*="characters/16589-"],[src*="characters/16589/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16589.webp");
+}
+/*Ваташи(я)*/
+[href*="characters/30579-"],[src*="characters/30579/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/30579.webp");
+}
+/*Роуз Целитель*/
+[href*="characters/191332-"],[src*="characters/191332/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/191332.webp");
+}
+/*Мерелеона Вермиллион*/
+[href*="characters/151247-"],[src*="characters/151247/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/151247.webp");
+}
+/*Шигео Кагеяма*/
+[href*="characters/109929-"],[src*="characters/109929/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/109929.webp");
+}
+/*Хол Хорс*/
+[href*="characters/16557-"],[src*="characters/16557/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16557.webp");
+}
+/*Ринго Родэгейн*/
+[href*="characters/23649-"],[src*="characters/23649/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/23649.webp");
+}
+/*Джонни Джостар*/
+[href*="characters/19492-"],[src*="characters/19492/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19492.webp");
+}
+/*Джайро Цеппели*/
+[href*="characters/11772-"],[src*="characters/11772/"]{
+  --show-default: 0;
+  --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11772.webp");
+}
+/*Бесправный ездок*/
+[href*="characters/81935-"],[src*="characters/81935/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/81935.webp");
+  }
+/*Байонетта*/
+[href*="characters/92041-"],[src*="characters/92041/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/92041.webp");
+  }
+/*Похоть*/
+[href*="characters/650-"],[src*="characters/650/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/650.webp");
+}
+/*Курапика*/
+[href*="characters/28-"],[src*="characters/28/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/28.webp");
+}
+/*Чунь Ли*/
+[href*="characters/5165-"],[src*="characters/5165/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5165.webp");
+}
+/*Кэмми Уайт*/
+[href*="characters/9915-"],[src*="characters/9915/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/9915.webp");
+}
+/*Ада Вонг*/
+[href*="characters/35551-"],[src*="characters/35551/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/35551.webp");
+}
+/*Джилл Валентайн*/
+[href*="characters/12664-"],[src*="characters/12664/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/12664.webp");
+}
+/*Ясухо Хиросе*/
+[href*="characters/42779-"],[src*="characters/42779/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/42779.webp");
+}
 /*Нами*/
-.b-catalog_entry a[href *= 'characters/723-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/723'] {
-  background-image: url(https://i.ibb.co/B33Wd84/3.jpg);
+[href*="characters/723-"],[src*="characters/723/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/723.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/723-'] img {
-    opacity: 0;
+/*Оливия Армстронг*/
+[href*="characters/3934-"],[src*="characters/3934/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/3934.webp");
 }
-
-
-/*Робин*/
-.b-catalog_entry a[href *= 'characters/61-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/61-'] {
-  background-image: url(https://i.ibb.co/SfsGM6N/4.jpg);
+/*Фреми Спиддроу*/
+[href*="characters/88577-"],[src*="characters/88577/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/88577.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/61-'] img {
-    opacity: 0;
+/*Детка 5*/
+[href*="characters/75422-"],[src*="characters/75422/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/75422.webp");
 }
-
+/*Перона*/
+[href*="characters/7467-"],[src*="characters/7467/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/7467.webp");
+}
+/*C.C.*/
+[href*="characters/1111-"],[src*="characters/1111/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1111.webp");
+}
+/*Кимихиро Ватануки*/
+[href*="characters/235-"],[src*="characters/235/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/235.webp");
+}
+/*Киёко Симидзу*/
+[href*="characters/67689-"],[src*="characters/67689/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/67689.webp");
+}
+/*Итачи Учиха*/
+[href*="characters/14-"],[src*="characters/14/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/14.webp");
+}
 /*Санджи*/
-.b-catalog_entry a[href *= 'characters/305-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/305-'] {
-  background-image: url(https://i.ibb.co/mbwvGT5/5.jpg);
+[href*="characters/305-"],[src*="characters/305/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/305.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/305-'] img {
-    opacity: 0;
-}
-
-
 /*Усопп*/
-.b-catalog_entry a[href *= 'characters/724-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/724-'] {
-  background-image: url(https://i.ibb.co/g6S11mG/6.jpg);
+[href*="characters/724-"],[src*="characters/724/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/724.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/724-'] img {
-    opacity: 0;
+/*Рюк*/
+[href*="characters/75-"],[src*="characters/75/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/75.webp");
 }
-
-/*Зоро*/
-.b-catalog_entry a[href *= 'characters/62-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/62-'] {
-  background-image: url(https://i.ibb.co/BPkhfdw/7.jpg);
+/*Сайки Кусуо*/
+[href*="characters/90291-"],[src*="characters/90291/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/90291.webp");
 }
-[class *= 'b-catalog_entry'] > a[href *= 'characters/62-'] img {
-    opacity: 0;
+/*Фрэнки*/
+[href*="characters/64-"],[src*="characters/64/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/64.webp");
 }
-
-/*  Луффи  */
-.b-catalog_entry a[href *= 'characters/40-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/40-'] {
-  background-image: url(https://i.ibb.co/s2DV8QW/AaHXO7.jpg);
+/*Сенси*/
+[href*="characters/134265-"],[src*="characters/134265/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134265.webp");
 }
-
-
-/* Ягами  */
-.b-catalog_entry a[href *= 'characters/80-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/80-'] {
-  background-image: url(https://i.ibb.co/xfyxtjy/uy-Rq-oo-Y2-D4.jpg);
+/*Марсиль донато*/
+[href*="characters/134263-"],[src*="characters/134263/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134263.webp");
 }
-
-/*  Спайк */
-.b-catalog_entry a[href *= 'characters/1-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/1-'] {
-  background-image: url(https://i.ibb.co/168hBJr/EZGe-j-KXYAEgpl4.jpg);
+/*Чилчак Тимс */
+[href*="characters/134264-"],[src*="characters/134264/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134264.webp");
 }
-
-/*  Мадара  */
-.b-catalog_entry a[href *= 'characters/53901-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/53901-'] {
-  background-image: url(https://i.pinimg.com/564x/66/97/c8/6697c8471c8b4b8893a7f442504fb6e4.jpg);
+/*Лай Торден*/
+[href*="characters/134262-"],[src*="characters/134262/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134262.webp");
 }
-
-/*  Гатс  */
-.b-catalog_entry a[href *= 'characters/422-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/422-'] {
-  background-image: url(https://i.ibb.co/6NcgYfv/i-5.jpg);
+/*Ллойд Фронтера*/
+[href*="characters/213675"],[src*="characters/213675/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/213675.webp");
 }
-
-/* Эл  */
-.b-catalog_entry a[href *= 'characters/71-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/71-'] {
-  background-image: url(https://i.ibb.co/wJsFCQ8/p-Ed-En-T0xya-I.jpg);
+/*Брук*/
+[href*="characters/5627-"],[src*="characters/5627/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/5627.webp"); 
 }
-
-/* Нагито */
-.b-catalog_entry a[href *= 'characters/73227-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/73227-'] {
-  background-image: url(https://i.ibb.co/1bLMFNK/Gm-Gxh-AD8-Zio.jpg);
+/*Хилилюк*/
+[href*="characters/19271-"],[src*="characters/19271/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19271.webp"); 
 }
-
-/* Цельнометаллический */
-.b-catalog_entry a[href *= 'characters/11-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/11-'] {
-  background-image: url(https://i.ibb.co/kqPpwfh/CYgFEF.png);
+/*Изутсуми*/
+[href*="characters/177766-"],[src*="characters/177766/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/177766.webp"); 
 }
-
-/* Лелуш */
-.b-catalog_entry a[href *= 'characters/417-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/417-'] {
-  background-image: url(https://i.ibb.co/NVtckxZ/i-1.jpg);
+/*Ынхёк Ли*/
+[href*="characters/180814-"],[src*="characters/180814/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/180814.webp"); 
 }
-
-/* Онидзука */
-.b-catalog_entry a[href *= 'characters/434-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/434-'] {
-  background-image: url(https://im0-tub-ru.yandex.net/i?id=398b73bf95448c83c3c0f75b20c4882f&n=13&exp=1);
+/*Саичи Сугимото*/
+[href*="characters/138553-"],[src*="characters/138553/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/138553.webp"); 
 }
-
-/* Ишигами Сенку */
-.b-catalog_entry a[href *= 'characters/148984-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/148984-'] {
-  background-image: url(https://i.pinimg.com/736x/df/8e/2b/df8e2b46995abd96a7f1dfb4c7540d07.jpg);
+/*Ной*/
+[href*="characters/16059-"],[src*="characters/16059/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16059.webp"); 
 }
-
-/* Пейн  */
-.b-catalog_entry a[href *= 'characters/3180-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/3180-'] {
-  background-image: url(https://yt3.ggpht.com/a/AATXAJzQqP7gOqKV5or6vH872RZtWcynx_HC17g_Wqj7MQ=s900-c-k-c0xffffffff-no-rj-mo);
+/*Рыцарь череп*/
+[href*="characters/7881-"],[src*="characters/7881/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/7881.webp"); 
 }
-
-/* Хисока */
-.b-catalog_entry a[href *= 'characters/31-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/31-'] {
-  background-image: url(https://i.ibb.co/LPgQYfd/22e62.jpg);
+/*Фалин Торден*/
+[href*="characters/134266-"],[src*="characters/134266/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/134266.webp"); 
 }
-
-/* Сора */
-.b-catalog_entry a[href *= 'characters/82523-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/82523-'] {
-  background-image: url(https://i.ibb.co/KDmvXyB/1YIgw-1.jpg);
+/*Син*/
+[href*="characters/16058-"],[src*="characters/16058/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16058.webp"); 
 }
-
-/* Авилио Бруно */
-.b-catalog_entry a[href *= 'characters/141202-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/141202-'] {
-  background-image: url(https://i.ibb.co/jVXtCSW/i-7.jpg);
+/*Касукабэ*/
+[href*="characters/40926-"],[src*="characters/40926/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/40926.webp"); 
 }
-
-/* Алукард */
-.b-catalog_entry a[href *= 'characters/601-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/601-'] {
-  background-image: url(https://i.ibb.co/dj8JtJW/image.png);
+/*Рису*/
+[href*="characters/31212-"],[src*="characters/31212/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/31212.webp"); 
 }
-
-/* Кискэ */
-.b-catalog_entry a[href *= 'characters/z210-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/z210-'] {
-  background-image: url(https://i.ibb.co/FqqQKwp/8db92.jpg);
+/*Адзуса Накано*/
+[href*="characters/21173-"],[src*="characters/21173/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/21173.webp"); 
 }
-
-/* Леонардо Уотч */
-.b-catalog_entry a[href *= 'characters/118607-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/118607-'] {
-  background-image: url(https://i.ibb.co/sQSNmLt/HSTii-Y8mr-GM.jpg);
+/*Мио Акияма*/
+[href*="characters/19566-"],[src*="characters/19566/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19566.webp"); 
 }
-
-/* Итачи*/
-.b-catalog_entry a[href *= 'characters/14-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/14-'] {
-  background-image: url(https://i.ibb.co/YyKkmsG/i-Oe-Yjb9gd-C4.jpg);
+/*Рицу Тайнака*/
+[href*="characters/19567-"],[src*="characters/19567/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19567.webp"); 
 }
-
-/* Широ */
-.b-catalog_entry a[href *= 'characters/82525-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/82525-'] {
-  background-image: url(https://i.ibb.co/jLq49L7/i-55.jpg);
+/*Цумуги Котобуки*/
+[href*="characters/19568-"],[src*="characters/19568/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19568.webp"); 
 }
-
-/* Хяккимару */
-.b-catalog_entry a[href *= 'characters/14864-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/14864-'] {
-  background-image: url(https://i.ibb.co/nPgm6RC/Hyakkimaru.jpg);
+/*Юи Хирасава*/
+[href*="characters/19565-"],[src*="characters/19565/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/19565.webp"); 
 }
-
-/* Рин Тосака */
-.b-catalog_entry a[href *= 'characters/498-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/498'] {
-  background-image: url(https://i.ibb.co/wyYPhfX/Khi-CXw-P4-XJk.jpg);
+/*Рукия Кучики*/
+[href*="characters/6-"],[src*="characters/6/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/6.webp"); 
 }
-
-/* Курису Макисэ */
-.b-catalog_entry a[href *= 'characters/34470-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/34470-'] {
-  background-image: url(https://i.ibb.co/L0Jr48j/jye-G7p-H5884.jpg);
+/*Кай*/
+[href*="characters/79437-"],[src*="characters/79437/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/79437.webp"); 
 }
-
-/* Шиноа Хираги */
-.b-catalog_entry a[href *= 'characters/83017-'] .image-cutter,
-.b-catalog_entry-tooltip > a[href *= 'characters/83017-'] {
-  background-image: url(https://i.ibb.co/QpMwNVD/7-Eu-IWGETHLY.jpg);
+/*Томоко Куроки*/
+[href*="characters/50057-"],[src*="characters/50057/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/50057.webp"); 
 }
-
-
-
-
-/*Удаление*/
-[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
-    opacity: 0;
+/*Эн*/
+[href*="characters/16060-"],[src*="characters/16060/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/16060.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/2075-'] img {
-    opacity: 0;
+/*Иллуми Золдик*/
+[href*="characters/57-"],[src*="characters/57/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/57.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/80-'] img {
-    opacity: 0;
+/*Уинри Рокбелл*/
+[href*="characters/63-"],[src*="characters/63/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/63.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/1-'] img {
-    opacity: 0;
+/*Селим Брэдли*/
+[href*="characters/10982-"],[src*="characters/10982/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/10982.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/53901-'] img {
-    opacity: 0;
+/*Синдзи Хирако*/
+[href*="characters/1084-"],[src*="characters/1084/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/1084.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/422-'] img {
-    opacity: 0;
+/*Комуги*/
+[href*="characters/14313-"],[src*="characters/14313/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/14313.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/71-'] img {
-    opacity: 0;
+/*Брэд Бёрнс*/
+[href*="characters/63301-"],[src*="characters/63301/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/63301.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/73227-'] img {
-    opacity: 0;
+/*Макима*/
+[href*="characters/170734-"],[src*="characters/170734/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/170734.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/11-'] img {
-    opacity: 0;
+/*Резе*/
+[href*="characters/174751-"],[src*="characters/174751/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/174751.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/417-'] img {
-    opacity: 0;
+/*Фрирен*/
+[href*="characters/184947-"],[src*="characters/184947/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/184947.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/434-'] img {
-    opacity: 0;
+/*Ферн*/
+[href*="characters/188176-"],[src*="characters/188176/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/188176.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/148984-'] img {
-    opacity: 0;
+/*Рё Ямада*/
+[href*="characters/206278-"],[src*="characters/206278/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/206278.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/3180-'] img {
-    opacity: 0;
+/*Черный костюм*/
+[href*="characters/247285-"],[src*="characters/247285/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/247285.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/31-'] img {
-    opacity: 0;
+/*Рэйко Кудзирай*/
+[href*="characters/187135-"],[src*="characters/187135/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/187135.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/82523-'] img {
-    opacity: 0;
+/*Ринетта Эльфельт*/
+[href*="characters/235204-"],[src*="characters/235204/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/235204.webp"); 
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/141202-'] img {
-    opacity: 0;
+/*Хрона*/
+[href*="characters/11919-"],[src*="characters/11919/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/11919.webp"); 
+}
+/*Субару Хосина*/
+[href*="characters/210349-"],[src*="characters/210349/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/chara/210349.webp"); 
 }
 
-[class *= 'b-catalog_entry'] > a[href *= 'characters/601-'] img {
-    opacity: 0;
-}
 
-[class *= 'b-catalog_entry'] > a[href *= 'characters/z210-'] img {
-    opacity: 0;
-}
 
-[class *= 'b-catalog_entry'] > a[href *= 'characters/40-'] img {
-    opacity: 0;
-}
 
-[class *= 'b-catalog_entry'] > a[href *= 'characters/14-'] img {
-    opacity: 0;
-}
 
-[class *= 'b-catalog_entry'] > a[href *= 'characters/118607-'] img {
-    opacity: 0;
+/*ЛЮДИ*/
+/*Eve*/
+[href*="people/49130-"],[src*="people/49130/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/eve.webp");
+  }
+/*Юго Канно*/
+[href*="people/14287-"],[src*="people/14287/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/yugo_kanno.webp");
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/82525-'] img {
-    opacity: 0;
+/*Amazarashi*/
+[href*="people/37627-"],[src*="people/37627/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/amazarashi.webp");
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/14864-'] img {
-    opacity: 0;
+/*Sid*/
+[href*="people/7539-"],[src*="people/7539/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/sid.webp");
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/498-'] img {
-    opacity: 0;
+/*My First Story*/
+[href*="people/33981-"],[src*="people/33981/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/my_first_story.webp");
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/34470-'] img {
-    opacity: 0;
+/*UVERworld*/
+[href*="people/6608-"],[src*="people/6608/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/uverworld.webp");
 }
-
-[class *= 'b-catalog_entry'] > a[href *= 'characters/83017-'] img {
-    opacity: 0;
+/*ONE OK ROCK*/
+[href*="people/27629-"],[src*="people/27629/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/one_ok_rock.webp");
 }
-
+/*Queen*/
+[href*="people/11090-"],[src*="people/11090/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki_theme/main/posters/people/queen.webp");
+}

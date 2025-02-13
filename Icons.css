@@ -4,131 +4,136 @@
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("truetype"), url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2")
+	src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("truetype"), url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2");
 }
 
 .l-top_menu-v2 .icon-profile ::before {
-	content: "Nedo-"
+	content: "Недо";
 }
 
 .l-top_menu-v2 .icon-anime_list::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-manga_list::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-characters::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-settings::before {
-	content: ''
+	content: '';
 }
 
-
 .l-top_menu-v2 .icon-home::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .menu-icon.search::before {
-	content: '_'
+	content: '_';
 }
 
 .l-top_menu-v2 .icon-anime::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-manga::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-ranobe::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-clubs::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-collections::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-reviews::before {
-	content: ''
+	content: '';
 }
 
-.l-top_menu-v2 .menu-icon.forum::before{
-	content: 'forum'
+.l-top_menu-v2 .menu-icon.forum::before {
+	content: 'forum';
 }
+
 .l-top_menu-v2 .icon-forum::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-calendar::before {
-	content: ''
+	content: '';
 }
 
-.l-top_menu-v2 .menu-icon.contest::before{
+.l-top_menu-v2 .menu-icon.contest::before {
 	content: 'person';
-	transform: scale(-1, 1)
+	transform: scale(-1, 1);
 }
+
 .l-top_menu-v2 .icon-contests::before {
 	content: '';
 }
 
 .l-top_menu-v2 .icon-info::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-socials::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .menu-icon.moderation::before,
 .l-top_menu-v2 .icon-moderation::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .menu-icon.mail::before,
 .l-top_menu-v2 .icon-mail::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-achievements::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-site_rules::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-faq::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-sign_out::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-people::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .menu-icon.sign_in::before,
 .l-top_menu-v2 .icon-users::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .menu-icon.trigger::before,
 .l-top_menu-v2 .icon-other::before {
-	content: ''
+	content: '';
 }
 
 .l-top_menu-v2 .icon-articles::before {
-	content: ''
+	content: '';
+}
+
+.l-top_menu-v2 .icon-critiques:before {
+    content: '';
 }
 
 .l-top_menu-v2 .menu-icon::before,
@@ -156,5 +161,5 @@
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: 'liga';
 	overflow: hidden;
-    margin-right: 16px;
+	margin-right: 16px;
 }
