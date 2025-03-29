@@ -73,6 +73,10 @@
     --show-visi: 0;
     --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/200.gif");
   }
+  [data-hint*="300 "] .c-image .inner a[href$='/animelist'] {
+    --show-visi: 0;
+    --imagge: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/300.gif");
+  }
   
   
   /*Фэнтэзи 1 уровень*/
