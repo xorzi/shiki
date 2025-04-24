@@ -49,6 +49,21 @@
     min-width: 229.66px;
 }
 
+/*постер на странице в разделе "связянное" */
+.entry-tooltip_container>.image-link img{
+	content: var(--custom-image,none);
+}
+
+/*постер в поиске*/
+.b-db_entry-variant-list_item img{ 
+	content: var(--custom-image,none);
+}
+
+/*постер в истории*/
+.c-history .entry img{
+	content: var(--custom-image,none);
+}
+
 /* Шаблон */
 /*
 [href*="characters/-"],[src*="characters//"] {
