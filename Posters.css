@@ -168,7 +168,11 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/anime/anime_your_april_lie.webp");
 }
-
+/*Аниме Доктор стоун*/
+[href*="animes/z38691-"],[src*="animes/38691/"] {
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/anime/anime_dr_stone.webp");
+}
 
 
 /*МАНГА*/
@@ -232,7 +236,11 @@
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/manga/manga_akira.webp");
 }
-
+/*Доктор Стоун*/
+[href*="mangas/z103897-"],[src*="mangas/103897/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/manga/manga_dr_stone.webp");
+}
 
 
 
@@ -323,6 +331,11 @@
 [href*="characters/148984-"],[src*="characters/148984/"]{
     --show-default: 0;
     --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/chara/148984.webp");
+}
+/*Сай Нанами*/
+[href*="characters/201060-"],[src*="characters/201060/"]{
+    --show-default: 0;
+    --custom-image: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/chara/201060.webp");
 }
 /*Хисока Мороу*/
 [href*="characters/31-"],[src*="characters/31/"] {
