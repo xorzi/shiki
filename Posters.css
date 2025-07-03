@@ -247,6 +247,11 @@
 
 
 /*ПЕРСОНАЖИ*/
+/*Цюаньси*/
+[href*="characters/181441-"],[src*="characters/181441/"]{
+--show-default: 0;
+--custom-image: url("https://raw.githubusercontent.com/xorzi/shiki/main/posters/chara/181441.webp");
+}
 /*Рей Аянами*/
 [href*="characters/86-"],[src*="characters/86/"]{
 --show-default: 0;
