@@ -247,6 +247,11 @@
 
 
 /*ПЕРСОНАЖИ*/
+/*Тест3*/
+[href*="characters/9999999997-"],[src*="characters/9999999997/"]{
+--show-default: 0;
+--custom-image: url("https://raw.githubusercontent.com/xorzi/shiki/main/posters/chara/9999999997.jpg");
+}
 /*Тест2*/
 [href*="characters/9999999998-"],[src*="characters/9999999998/"]{
 --show-default: 0;
