@@ -247,6 +247,16 @@
 
 
 /*ПЕРСОНАЖИ*/
+/*Рей Аянами*/
+[href*="characters/86-"],[src*="characters/86/"]{
+--show-default: 0;
+--custom-image: url("https://raw.githubusercontent.com/xorzi/shiki/main/posters/chara/86.webp");
+}
+/*Дьявол голода*/
+[href*="characters/269156-"],[src*="characters/269156/"]{
+--show-default: 0;
+--custom-image: url("https://raw.githubusercontent.com/xorzi/shiki/main/posters/chara/269156.webp");
+}
 /*Эмпорио Альниньё*/
 [href*="characters/28956-"],[src*="characters/28956/"]{
 --show-default: 0;
