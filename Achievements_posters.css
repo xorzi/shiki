@@ -112,42 +112,42 @@
   
   
   /*Ачивка пираты черной лагуны*/
-  [src="/assets/achievements/anime/franchise/black_lagoon.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/black_lagoon.jpg"]{
     content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_black_lagoon.gif");
     filter:grayscale(1);
   }
   /*Ачивка Реинкарнация безработного*/ 
-  [src="/assets/achievements/anime/franchise/mushoku_tensei.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/mushoku_tensei.jpg"]{
     content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_mushoku_tensei.gif");
     filter:grayscale(1);
   }
   /*Ачивка ДжоДжо*/
-  [src="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/jojo_no_kimyou_na_bouken.jpg"]{
     content: url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_jojo.gif");
     filter:grayscale(1);
   }
   /*Ачивка Код Гиас*/
-  [src="/assets/achievements/anime/franchise/code_geass.png?v5"]{
+  [src*="/assets/achievements/anime/franchise/code_geass.png"]{
     content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_code_geass.gif");
     filter:grayscale(1);
   }
   /*Ачивка Бакуман*/
-  [src="/assets/achievements/anime/franchise/bakuman.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/bakuman.jpg"]{
     content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_bakuman.gif");
     filter:grayscale(1);
   }
   /*Ачивка Черный Клевер*/
-  [src="/assets/achievements/anime/franchise/black_clover.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/black_clover.jpg"]{
     content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_black_clover.gif");
     filter:grayscale(1);
   }
   /*Ачивка Токийский гуль*/
-  [src="/assets/achievements/anime/franchise/tokyo_ghoul.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/tokyo_ghoul.jpg"]{
     content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_tokyo_ghoul.gif");
     filter:grayscale(1);
   }
   /*Ачивка Доктор стоун*/
-  [src="/assets/achievements/anime/franchise/dr_stone.jpg?v5"]{
+  [src*="/assets/achievements/anime/franchise/dr_stone.jpg"]{
     content:url("https://raw.githubusercontent.com/horaw/shiki/main/posters/achievements/franchise_dr_stone.gif");
     filter:grayscale(1);
   }
