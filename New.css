@@ -1,3 +1,132 @@
+/*Замена надписи снизу*/
+.l-footer:before {
+  content: 'Theme by Yuutsu';
+}
+/* Меняем название в логотипе на свою картинку */
+.l-top_menu-v2 .logo-container .logo {
+  background-image: url(https://raw.githubusercontent.com/xorzi/shiki/main/posters/main/shiki-logo.png);
+  height: px;
+  margin-top: 3px;
+}
+
+/* Аниме/Манга/Ранобэ рядом с пунктами истории */
+.history-page a:before {
+  display: inline-block;
+  vertical-align: top;
+  width: 72px;
+}
+.history-page a[href ^= "/a"]:before {
+  content: "[Аниме] ";
+  color: #34a853;
+}
+.history-page a[href ^= "/m"]:before {
+  content: "[Манга] ";
+  color: #9c27b0;
+}
+.history-page a[href ^= "/r"]:before {
+  content: "[Ранобэ] ";
+  color: #039be5;
+}
+[data-locale="en"] .history-page a[href ^= "/a"]:before {
+  content: "[Anime] ";
+}
+[data-locale="en"] .history-page a[href ^= "/m"]:before {
+  content: "[Manga] ";
+}
+[data-locale="en"] .history-page a[href ^= "/r"]:before {
+  content: "[Ranobe] ";
+}
+
+/*Добавленяем к ачивкам проценты*/
+.b-achievement.is-badge::before,
+.p-profiles-show .achievements .cc-franchises .b-badge::before {
+	content: attr(data-hint) /*attr(data-title)*/" ("attr(data-progress)"%)";
+}
+
+
+/*Выравнивание аватарки*/
+.p-profiles .profile-head .c-brief .avatar::before {
+    margin-top: -0.05rem;
+}
+
+@media screen and (min-width: 1200px){
+.p-profiles .profile-head .c-brief .avatar::before {
+    margin-top: -2.05rem;
+ }}
+
+
+
+ /*Адаптация под мобильное устройство*/
+@media screen and (max-width: 767px) {
+	.b-stats_bar a.title, .b-stats_bar .title {
+		font-size: 14px;
+		margin-bottom: 3px;
+		position: absolute;
+		width: 91%;
+		text-align: center;
+		z-index: 2;
+		line-height: 38px;
+		font-size: 16px;
+		opacity: 0.5;
+	}
+
+	.b-stats_bar .bar .first, .b-stats_bar .bar .second, .b-stats_bar .bar .third {
+		color: rgb(0 0 0 / 0%);
+	}
+
+	.b-stats_bar.manga .bar .first {
+		border-radius: 45px 0 0 45px;
+	}
+
+	.b-stats_bar.manga .bar .second {
+		border-radius: 0 45px 45px 0;
+	}
+
+	.b-stats_bar.anime .bar .first {
+		border-radius: 45px 0 0 45px;
+	}
+
+	.b-stats_bar.anime .bar .third {
+		border-radius: 0 45px 45px 0;
+	}
+
+	.p-profiles-show .lifetime .times .time.checked {
+		color: rgba(var(--dark-color), var(--hundred));
+		font-weight: bold;
+		white-space: normal;
+		min-width: 50px;
+		line-height: 20px;
+	}
+
+	.p-profiles-show .lifetime .bar {
+		display: none;
+	}
+
+	.p-profiles-show .lifetime .times {
+		display: none;
+	}
+    /*Убрать рекламу*/
+	.spns_mt_footer_300x250 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.p-profiles .profile-head .c-history .entry {
+		margin: 0;
+		position: relative;
+		display: block;
+		margin-top: 0px;
+		clear: both;
+		float: none;
+		width: 100% !important;
+		animation: history 15s steps(3, end) infinite !important;
+		box-shadow: none !important;
+		opacity: 80%;
+	}
+}
+
+
 /*Доработка в связи с обновлением сайта*/
 .p-dashboards-show .v2 .my-list {
 	background: rgba(var(--block-color), 0.3);
@@ -648,33 +777,6 @@ body::-webkit-scrollbar-thumb {
     width: 440x;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Полезности*/
 .b-to-top.active .arrow {display: none;}
 body::-webkit-scrollbar-thumb{
@@ -701,18 +803,12 @@ body::-webkit-scrollbar-thumb{
     border-radius: 12px;
 }
 
-
-
 /*Настройки для постера временно*/
 @media screen and (min-width: 1000px) {
   .b-image.b-poster img{
     width: 1300px;
     margin: 30px;
 }}
-
-
-
-
 
 /*Стрелка*/
 .b-to-top.active .arrow {
@@ -725,4 +821,9 @@ body::-webkit-scrollbar-thumb{
 .l-top_menu-v2 {
     background: rgba(var(--menu-back), 0);
     box-shadow: 0 1px 20px 10px rgba(var(--menu-back), 0.0);
+}
+
+/*Не показывать рейтинг в профиле*/
+.collection_score {
+  display: none;
 }
