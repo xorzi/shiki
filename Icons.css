@@ -11,6 +11,10 @@
 	content: 'forum';
 }
 
+.l-top_menu-v2 .menu-icon.mail:before {
+  content:'';
+}
+
 .l-top_menu-v2 .menu-icon::before {
 	display: block;
 	flex-shrink: 0;

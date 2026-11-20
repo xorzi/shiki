@@ -69,6 +69,11 @@
 	content: var(--custom-image,none);
 }
 
+/*Постер в клубах и прочее*/
+.b-menu_logo img, .p-clubs-show .l-content .logo img {
+    content: var(--custom-image, none);
+}
+
 /* Шаблон */
 /*
 [href*="characters/-"],[src*="characters//"] {
